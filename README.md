@@ -7,14 +7,23 @@ If you come across any issues while using Realm, please post details [here](http
 
 ## Updates
 
-### `v0.0.60`
+### `v0.0.61` - (12/15/22)
+- better image parsing for space creation detail step
+- edit detail image fix
+- member list rendering fix
+- Tooltip overflow scrollbar removed 
+- minor scrollbar style improvements
+- removed unneeded styles from MiniAppWindow
+- bazaar unrecommended fix
+
+### `v0.0.60` - (12/14/22)
 - minor bazaar fixes around recommended apps
 
-### `v0.0.59`
+### `v0.0.59` - (12/14/22)
 - fixes scrollbars appearing everywhere and applies a style to the scrollbars that do exist.
 - fixes a bug in the rooms lib that prevented properly cleaning up WebRTC peer connections when a room was deleted.
 
-### `v0.0.58`
+### `v0.0.58` - (12/13/22)
 - disable next button on the Install Realm step while the loader is visible
 - disable click on spaces selector while it is in it's loading state
 - fixes bazaar recommended app bug in spaces. If someone didn't have a catalog entry for an app when it was recommended, they could experience a crash when clicking on the home button on the spaces home screen.
