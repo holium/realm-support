@@ -4,6 +4,12 @@ We are going to keep track of issues via this Github repo.
 
 If you come across any issues while using Realm, please post details [here](https://github.com/holium/realm-support/issues/new/choose).
 
+## App issues
+
+If you have an issue with an app supported by Holium, click below to post details:
+
+- [Engram](https://github.com/holium/engram/issues)
+- [Campfire](https://github.com/holium/campfire)
 
 ## Updates
 
