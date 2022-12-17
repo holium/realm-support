@@ -11,7 +11,7 @@ If you have an issue with an app supported by Holium, click below to post detail
 - [Engram](https://github.com/holium/engram/issues)
 - [Campfire](https://github.com/holium/campfire)
 
-## Updates
+## Changelog
 
 ### `v0.0.62` - 12/16/22
 - fix for stall update crashing on recommend and app suite add
