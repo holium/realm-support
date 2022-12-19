@@ -13,6 +13,9 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.0.63` - 12/17/22
+- onboarding fixes
+
 ### `v0.0.62` - 12/16/22
 - fix for stall update crashing on recommend and app suite add
 - check if groups 2 is installed prior to allowing Realm install (need groups 2 for Realm messaging and is proxy for 417 zuse being updated)
