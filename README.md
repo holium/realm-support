@@ -13,6 +13,11 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.0.64` - 12/20/22
+- added bulletin agent to the realm desk which allows for us to push featured spaces and other listings
+- dm double send fix
+- dm update fixes
+
 ### `v0.0.63` - 12/17/22
 - onboarding fixes
 
