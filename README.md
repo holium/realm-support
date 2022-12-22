@@ -13,6 +13,16 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+
+### `v0.0.64` - 12/21/22
+- Fix the "Cannot construct URL" error
+- Update toolbar URL when navigating through links
+- Fix the search button
+- Make search input non-draggable
+- Enable IP addresses
+
+https://user-images.githubusercontent.com/29574724/208787076-7ba94a3b-9284-4124-9720-72bc7af84a83.mov
+
 ### `v0.0.64` - 12/20/22
 - added bulletin agent to the realm desk which allows for us to push featured spaces and other listings
 - dm double send fix
