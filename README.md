@@ -24,8 +24,8 @@ If you have an issue with an app supported by Holium, click below to post detail
 - Fixes install statuses to emulate the pre-OTA stable install process
 - Fixes issue with host being an empty unit.
      - adds poke to manually set a host if a null unit is present
-* Sync %spaces and %groups members by @leowini
-* Fix context menu overflowing near bottom of screen by @gdbroman
+- Sync %spaces and %groups members by @leowini
+- Fix context menu overflowing near bottom of screen by @gdbroman
 
 Before | After
 --- | ---
