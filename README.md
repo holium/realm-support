@@ -14,7 +14,6 @@ If you have an issue with an app supported by Holium, click below to post detail
 ## Changelog
 
 ### `v0.0.66` - 12/22/22
-- group / spaces member sync: add, invite, kick, etc
 - bazaar app install fixes
 - bazaar app host is set properly
 - added a number badge to the rooms button so people can see if there is anyone in a room at a glance.
