@@ -13,8 +13,25 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.0.66` - 12/22/22
+- group / spaces member sync: add, invite, kick, etc
+- bazaar app install fixes
+- bazaar app host is set properly
+- added a number badge to the rooms button so people can see if there is anyone in a room at a glance.
+- When a ship is added to space -> ship is added to group and receives an invite for that group.
+- When a ship is added to space -> ship receives an invite to the space. May want to refactor spaces so that a ship can simultaneously be added to a space and invited to the space (in %groups ship doesn't actually have to accept before being added as a member).
+- Fixes issue where app catalog entries are not shared properly on joined-bazaar.
+- Fixes install statuses to emulate the pre-OTA stable install process
+- Fixes issue with host being an empty unit.
+     - adds poke to manually set a host if a null unit is present
+* Sync %spaces and %groups members by @leowini
+* Fix context menu overflowing near bottom of screen by @gdbroman
 
-### `v0.0.64` - 12/21/22
+Before | After
+--- | ---
+<img width="452" alt="Screenshot 2022-12-22 at 2 38 24 PM" src="https://user-images.githubusercontent.com/29574724/209146168-16260777-5ca5-4116-8646-c3afec7135c4.png"> | <img width="452" alt="Screenshot 2022-12-22 at 2 36 39 PM" src="https://user-images.githubusercontent.com/29574724/209146296-229cb034-38c6-47ee-ba4b-76dbcbc52f47.png">
+
+### `v0.0.65` - 12/21/22
 - Fix the "Cannot construct URL" error
 - Update toolbar URL when navigating through links
 - Fix the search button
