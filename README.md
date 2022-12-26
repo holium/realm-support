@@ -13,6 +13,15 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.0.67` - 12/23/22
+* unsubscribe from all providers on %set-provider by @leowini 
+* leaving correct path by @leowini 
+* 403 error by @lodlev-migdev
+* open relic browser from webview links. also has group and talk theme … by @drunkplato 
+* groups theme injection, open relic links from groups, tlon.network fix by @drunkplato 
+
+https://user-images.githubusercontent.com/6413077/209399534-0c735b5b-b6ee-4fa5-8b36-b17b21feee06.mov
+
 ### `v0.0.66` - 12/22/22
 - bazaar app install fixes
 - bazaar app host is set properly
