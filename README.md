@@ -13,6 +13,12 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.0.70` - 12/28/22
+* Fix: context menu closes on item click by @gdbroman
+
+### `v0.0.69` - 12/27/22
+* Fix: selection causing renderer to hang by @gdbroman 
+
 ### `v0.0.68` - 12/26/22
 * Further context menu improvements by @gdbroman
 * addded more fixes for the groups styles.. moving on for now by @drunkplato
