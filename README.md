@@ -13,6 +13,18 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.0.68` - 12/26/22
+* Further context menu improvements by @gdbroman
+* addded more fixes for the groups styles.. moving on for now by @drunkplato
+* Rooms enter exit sound by @drunkplato
+* Subscription channel status in settings by @gdbroman
+* context menu updates, room enter/exit sound, group theme improvements, etc. by @drunkplato
+
+
+https://user-images.githubusercontent.com/29574724/209474584-56954b01-a055-4439-a40e-611c81712d91.mov
+
+https://user-images.githubusercontent.com/29574724/209437708-a66501d4-f2d9-469f-aa73-a6164adecb0c.mov
+
 ### `v0.0.67` - 12/23/22
 * unsubscribe from all providers on %set-provider by @leowini 
 * leaving correct path by @leowini 
