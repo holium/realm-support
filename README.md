@@ -13,6 +13,9 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.0.72` - 12/29/22
+* Fix: basic profile photo crash + many new components in design-system by @drunkplato
+
 ### `v0.0.70` - 12/28/22
 * Fix: context menu closes on item click by @gdbroman
 
