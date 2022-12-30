@@ -13,6 +13,13 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.0.72` - 12/29/22
+* Fix AppSearchPopover positioning by @gdbroman
+* 581 disconnect from all peer audio when you leave a room by @drunkplato
+* App search and rooms hangup fixes by @drunkplato
+
+https://user-images.githubusercontent.com/29574724/209835734-28833931-a103-420c-9260-ae1ec94ffdb6.mov
+
 ### `v0.0.71` - 12/29/22
 * Fix: basic profile photo crash + many new components in design-system by @drunkplato
 
