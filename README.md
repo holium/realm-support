@@ -13,6 +13,15 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.0.73` - 12/30/22
+* Dynamic DM input height with shift-enter by @gdbroman
+* Invert PassportCard when close to bottom of screen by @gdbroman
+* 12-30-22 daily update by @drunkplato
+
+https://user-images.githubusercontent.com/29574724/209992072-116c49b1-1989-4ed9-8ab6-08c834ed1342.mov
+
+https://user-images.githubusercontent.com/29574724/210103671-9fda142c-3750-404a-a665-66ed2839847a.mov
+
 ### `v0.0.72` - 12/29/22
 * Fix AppSearchPopover positioning by @gdbroman
 * 581 disconnect from all peer audio when you leave a room by @drunkplato
