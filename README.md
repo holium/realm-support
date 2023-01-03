@@ -27,10 +27,6 @@ If you have an issue with an app supported by Holium, click below to post detail
      * Also fix EmptyPicture's prop types
 * Fix devtools for some webview types by @sethfork
 * 01-02-2023 nightly update by @drunkplato
-     * If account exists with email entered, send verification code and allow user to onboard again.
-     * Notification dot in rooms chat on new message
-     * Fix selectedSpace.type error
-     * dev app webview devTools toggle
 
 https://user-images.githubusercontent.com/29574724/210133606-c6d61213-fa6b-4ef0-80cb-0673bf9fb2a3.mov
 
