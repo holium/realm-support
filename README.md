@@ -13,6 +13,25 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.0.74` - 01/02/23
+* fix to ignore existing email error. will resend verification code if … by @lodlev-migdev
+* Notification dot on rooms chat icon by @gdbroman
+* Fix selectedSpace.type error by @gdbroman
+     * Remove the non-null assertion.
+     * Add a null check.
+     * Also fix EmptyPicture's prop types
+* Fix devtools for some webview types by @sethfork
+* 01-02-2023 nightly update by @drunkplato
+     * If account exists with email entered, send verification code and allow user to onboard again.
+     * Notification dot in rooms chat on new message
+          * https://user-images.githubusercontent.com/29574724/210133606-c6d61213-fa6b-4ef0-80cb-0673bf9fb2a3.mov
+     * Fix selectedSpace.type error
+     * dev app webview devTools toggle
+
+https://user-images.githubusercontent.com/29574724/210133606-c6d61213-fa6b-4ef0-80cb-0673bf9fb2a3.mov
+
+
+
 ### `v0.0.73` - 12/30/22
 * Dynamic DM input height with shift-enter by @gdbroman
 * Invert PassportCard when close to bottom of screen by @gdbroman
