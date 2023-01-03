@@ -40,6 +40,8 @@ https://user-images.githubusercontent.com/29574724/210133606-c6d61213-fa6b-4ef0-
 * Dynamic DM input height with shift-enter by @gdbroman
 * Invert PassportCard when close to bottom of screen by @gdbroman
 * 12-30-22 daily update by @drunkplato
+   * multi-line dm input fixed
+   * fix for PassportCard orientation and bottom of page
 
 https://user-images.githubusercontent.com/29574724/209992072-116c49b1-1989-4ed9-8ab6-08c834ed1342.mov
 
