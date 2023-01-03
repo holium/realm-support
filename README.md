@@ -20,6 +20,7 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ### `v0.0.74` - 01/02/23
 * fix to ignore existing email error. will resend verification code if … by @lodlev-migdev
+   * If account exists with email entered, send verification code and allow user to onboard again.
 * Notification dot on rooms chat icon by @gdbroman
 * Fix selectedSpace.type error by @gdbroman
      * Remove the non-null assertion.
