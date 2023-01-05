@@ -13,6 +13,21 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.0.76` - 01/04/23
+* Open image attachment from DMs by @gdbroman
+* Session load fix by @lodlev-migdev
+   * if onboarding complete AND non production build, will auto login user
+   * if onboarding NOT complete, will pickup where user left off
+   * if production build and onboarding complete, will force user to login
+* Fixes bug where app theme gets mixed up when switching between spaces by @leowini
+* changed workspace build script by @drunkplato
+* improvements to rooms stuff, fix #636 bug by @Tenari
+* Rooms lib state cleanup by @drunkplato
+* 01-04-23 nightly updates by @drunkplato
+
+https://user-images.githubusercontent.com/29574724/210394049-893f004f-824c-40f6-9105-1cc0cc76352d.mov
+
+
 ### `v0.0.75` - 01/03/23
 * fixed room connection edge case by @drunkplato
 * rooms connection fixes by @drunkplato
