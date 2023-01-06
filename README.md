@@ -13,7 +13,7 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
-### `v0.0.78` - 01/05/23
+### `v0.0.77` - 01/05/23
 * better states in RemotePeer by @drunkplato in https://github.com/holium/realm/pull/653
 * 01-05-22 nightly update by @drunkplato in https://github.com/holium/realm/pull/655
     * more rooms fixes
