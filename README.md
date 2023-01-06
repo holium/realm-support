@@ -13,6 +13,12 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.0.78` - 01/06/23
+* package.json fix typo `lib/rooom` -> `lib/room` by @niblyx-malnus
+* forcing email fix by @drunkplato
+* fix for incorrect error message and incorrect account id check by @drunkplato
+* fix for incorrect error message and incorrect account id check by @drunkplato
+
 ### `v0.0.77` - 01/05/23
 * better states in RemotePeer by @drunkplato
 * 01-05-22 nightly update by @drunkplato
