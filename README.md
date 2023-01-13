@@ -19,6 +19,8 @@ If you have an issue with an app supported by Holium, click below to post detail
 * 640 mute status remote peer by @Tenari
 * sub to dm wire in %chat if we aren't already subbed, whenever we send… by @Tenari
 * 1-12-23 - nightly fixes by @drunkplato
+  * mute status from other peers
+  * courier dms now work 
 * forcing 0.79 build again by @lodlev-migdev
 
 ### `v0.0.78` - 01/06/23
