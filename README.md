@@ -13,6 +13,14 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.0.79` - 01/13/23
+* 639 right click delete room by @Tenari
+* Toolbar rename folder by @ajlamarc
+* 640 mute status remote peer by @Tenari
+* sub to dm wire in %chat if we aren't already subbed, whenever we send… by @Tenari
+* 1-12-23 - nightly fixes by @drunkplato
+* forcing 0.79 build again by @lodlev-migdev
+
 ### `v0.0.78` - 01/06/23
 * package.json fix typo `lib/rooom` -> `lib/room` by @niblyx-malnus
 * forcing email fix by @drunkplato
