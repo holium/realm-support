@@ -14,9 +14,9 @@ If you have an issue with an app supported by Holium, click below to post detail
 ## Changelog
 
 ### `v0.1.1` - 01/19/23
-* release-v0.1.1 by @drunkplato in https://github.com/holium/realm/pull/867
+* release-v0.1.1 by @drunkplato
    * properly refreshes roomsManager context in useRooms
-* release-v0.1.1 by @lodlev-migdev in https://github.com/holium/realm/pull/868,  https://github.com/holium/realm/pull/869,  https://github.com/holium/realm/pull/870, https://github.com/holium/realm/pull/874
+* release-v0.1.1 by @lodlev-migdev
    * fixes the useRooms hook to cleanup the context properly
 
 
