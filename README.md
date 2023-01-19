@@ -17,8 +17,8 @@ If you have an issue with an app supported by Holium, click below to post detail
 * release-v.0.1.0 by @lodlev-migdev
 * 489 deployment updates by @lodlev-migdev
 * * improve the SystemBar design and make Rooms more prominent as a visual element
+
 <img width="452" src="https://user-images.githubusercontent.com/6413077/212691943-23c02ff0-9aa7-4d64-98c1-1afc0a1258f7.png">
-https://user-images.githubusercontent.com/6413077/212691943-23c02ff0-9aa7-4d64-98c1-1afc0a1258f7.png
 
 * improved build processes
 * sys.kelvin update to 16
@@ -41,20 +41,20 @@ https://user-images.githubusercontent.com/6413077/212691943-23c02ff0-9aa7-4d64-9
    * SectionDivider
    
    Tab
+   <img width="452" src="https://user-images.githubusercontent.com/6413077/212903328-1fd038f6-8ba5-4769-91ca-8d5b0054b70d.png">
    
-   https://user-images.githubusercontent.com/6413077/212903328-1fd038f6-8ba5-4769-91ca-8d5b0054b70d.png
    
    Bookmark
+   <img width="452" src="https://user-images.githubusercontent.com/6413077/212903395-e6dc9f42-458a-4167-87f0-d29aca60b719.png">
    
-   https://user-images.githubusercontent.com/6413077/212903395-e6dc9f42-458a-4167-87f0-d29aca60b719.png
    
    Folder
+   <img width="452" src="https://user-images.githubusercontent.com/6413077/212903395-e6dc9f42-458a-4167-87f0-d29aca60b719.png">
    
-   https://user-images.githubusercontent.com/6413077/212903395-e6dc9f42-458a-4167-87f0-d29aca60b719.png
    
    SectionDivider
+   <img width="452" src="https://user-images.githubusercontent.com/6413077/212903540-45871932-a0eb-4151-9d33-6fd9647fa8f0.png">
    
-   https://user-images.githubusercontent.com/6413077/212903540-45871932-a0eb-4151-9d33-6fd9647fa8f0.png
    
    
 
