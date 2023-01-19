@@ -17,7 +17,7 @@ If you have an issue with an app supported by Holium, click below to post detail
 * release-v.0.1.0 by @lodlev-migdev
 * 489 deployment updates by @lodlev-migdev
 * * improve the SystemBar design and make Rooms more prominent as a visual element
-
+<img width="452" src="https://user-images.githubusercontent.com/6413077/212691943-23c02ff0-9aa7-4d64-98c1-1afc0a1258f7.png">
 https://user-images.githubusercontent.com/6413077/212691943-23c02ff0-9aa7-4d64-98c1-1afc0a1258f7.png
 
 * improved build processes
