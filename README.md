@@ -16,7 +16,6 @@ If you have an issue with an app supported by Holium, click below to post detail
 ### `v0.1.2` - 01/24/23
 * test and fix test-build by @lodlev-migdev
 * 489 deployment updates by @lodlev-migdev
-* 489 deployment updates by @lodlev-migdev
 * testing builds by @lodlev-migdev 
 * staging-v0.1.1 by @lodlev-migdev 
 * Room connection fixes by @drunkplato 895
