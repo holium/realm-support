@@ -13,6 +13,41 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.1.2` - 01/24/23
+* test and fix test-build by @lodlev-migdev in https://github.com/holium/realm/pull/854
+* 489 deployment updates by @lodlev-migdev in https://github.com/holium/realm/pull/871
+* 489 deployment updates by @lodlev-migdev
+* testing builds by @lodlev-migdev 
+* staging-v0.1.1 by @lodlev-migdev 
+* Room connection fixes by @drunkplato 895
+* Rooms dial waiting ack flow fixes 2 by @drunkplato
+* Reorder pinned apps by @gdbroman
+  * Fix reordering of pinned apps
+    * Fix context menu actions (pin & close)
+    * Make it so that apps aren't accidentally opened when reordering them
+    * Clean up ContextMenu styles + types
+
+https://user-images.githubusercontent.com/29574724/213758027-96815df5-e71b-4f36-a578-8668d8457f75.mov
+
+* Rooms transport udp by @drunkplato
+* fix for 'gh release update..' command when running windows build by @lodlev-migdev
+* sync'd latest staging and production builds by @lodlev-migdev
+* touch to force change so can PR and build by @lodlev-migdev 
+* added the new urls to the BaseProtocol not useRooms... by @drunkplato
+* Update Holium handle in ErrorBoundary by @gdbroman
+* Rooms udp fix 2 by @drunkplato
+* Fix null space description error by @gdbroman
+  *This fixes a bug where the app crashes when you click "Edit" on a space without a description (but only seemed to happen sometimes).
+  *Also cleaned up some warnings in `Details.tsx`, like removing use of deprecated `findDomNode`.
+  
+https://user-images.githubusercontent.com/29574724/214273428-aece2b07-dbe7-4cdd-a9b9-9253f35daceb.mov
+
+* Add PR lint step by @gdbroman
+  * Fix all ESLint errors
+  * Add a `tsconfig.json` in root for others to extend from
+* Rooms udp fix 3 by @drunkplato
+* release-v0.1.2 by @lodlev-migdev
+
 ### `v0.1.1` - 01/19/23
 * release-v0.1.1 by @drunkplato
    * properly refreshes roomsManager context in useRooms
