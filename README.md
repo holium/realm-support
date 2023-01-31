@@ -13,6 +13,46 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.3.0` - 01/30/23
+* Remove bitcoin option by @drunkplato
+   * more rooms fixes
+   * logout now cleans up rooms properly
+   * cleaning handshake logic for latency situations
+   * fixes a bug where restarting onboarding logs a ship in prior to being done with onboarding.
+   * open image attachment in Relic from DMs
+   * theme switching bug fix
+   * changed workspace build script to link all libs
+ * Wallet encryption by @drunkplato
+* found a useMemo happening after a return null by @drunkplato
+* quick fix by @drunkplato
+* Wallet release alpha by @drunkplato
+   * Wallet tray app
+      * Manage addresses
+      * Send / Receive eth, erc-20
+      * View NFTs
+      * Manage settings
+   * Save notes on each transaction 
+   * Encryption for credentials and mnemonic
+   * Delete HD wallet locally
+   * Delete HD wallet metadata on ship
+* %realm-wallet agent for storing metadata and sending crypto via @p  
+* staging-v0.2.4 by @lodlev-migdev
+* Wallet Store -> DiskStore by @drunkplato
+* fixed wallet avatar bug and moon truncation in transaction list by @drunkplato
+* scrollview fix for webview by @drunkplato
+* Fix crash during ship boot by @gdbroman
+
+https://user-images.githubusercontent.com/29574724/215357806-6b5cae54-31f0-4533-93f7-175ac9196721.mov
+
+* Wallet prod rpc fix by @drunkplato
+   * useRooms was crashing when click out of the wallet when the Relic browser was open from a transaction link.
+   * transaction screen defaults to first address even if on another address.
+   * Adding usd conversion to various screens
+   * Adding hour and min to transaction details.
+   * fix erc-20 coin send transaction 
+* Wallet tx to from fix by @leowini
+* release-v0.3.0 by @drunkplato
+
 ### `v0.2.1` - 01/25/23
 * test and fix test-build by @lodlev-migdev
 * 489 deployment updates by @lodlev-migdev
