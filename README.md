@@ -13,6 +13,20 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.3.1` - 02/01/23
+* rooms relic fix & copy spaces path by @drunkplato
+  * minor fixes for rooms and relic browser bug
+* copy link context menu option for SpaceRow component
+* Save the currently opened space in %spaces by @ajlamarc
+  * Add `current` to `%spaces` that stores the currently opened space path
+  * Changing spaces in Realm sends a poke to update `current`.  Creating a new space also updates `current`.
+  * New subscription path `/current` that sends updates when the space is changed.
+* Fix conditional hooks not being caught inside observer components by @gdbroman
+* Fix null snapshot on boot by @gdbroman
+
+
+* release-v0.3.1 by @drunkplato in https://github.com/holium/realm/pull/959
+
 ### `v0.3.0` - 01/30/23
 * Remove bitcoin option by @drunkplato
    * more rooms fixes
