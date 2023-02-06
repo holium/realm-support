@@ -23,9 +23,7 @@ If you have an issue with an app supported by Holium, click below to post detail
   * New subscription path `/current` that sends updates when the space is changed.
 * Fix conditional hooks not being caught inside observer components by @gdbroman
 * Fix null snapshot on boot by @gdbroman
-
-
-* release-v0.3.1 by @drunkplato in https://github.com/holium/realm/pull/959
+* release-v0.3.1 by @drunkplato
 
 ### `v0.3.0` - 01/30/23
 * Remove bitcoin option by @drunkplato
