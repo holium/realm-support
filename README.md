@@ -13,6 +13,130 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.4.0` - 02/13/23
+This release contains: 
+- the new mouse and window system refactor which will improve performance overall and prepares for multiplayer mode. 
+- new app updater with autoupdate logic 
+- contact sharing is now fully handled by Realm
+- windows build updater and fixes
+- tray app system is revamped 
+* 489 deployment updates by @lodlev-migdev
+* staging-v0.1.3 by @lodlev-migdev
+* staging-v0.1.3 by @lodlev-migdev
+* staging-v0.1.3 by @lodlev-migdev
+* more build testing by @lodlev-migdev
+* no longer update and commit files (e.g. package.json and docket files… by @lodlev-migdev
+* no longer update and commit files (e.g. package.json and docket files… by @lodlev-migdev
+* no longer update and commit files (e.g. package.json and docket files… by @lodlev-migdev
+* staging-v0.1.2 by @lodlev-migdev
+* staging-v0.1.2 by @lodlev-migdev
+* staging-v0.1.2 by @lodlev-migdev
+* staging-v0.1.2 by @lodlev-migdev
+* no longer update and commit files (e.g. package.json and docket files… by @lodlev-migdev
+* no longer update and commit files (e.g. package.json and docket files… by @lodlev-migdev
+* hotfix-v0.3.1 by @lodlev-migdev
+* testing new hotfix release pipelines by @lodlev-migdev
+* force another build as part of testing by @lodlev-migdev
+* hotfix-v0.3.2 by @lodlev-migdev
+* Move mouse to its own layer by @gdbroman
+* staging-v0.3.3 by @lodlev-migdev
+* App update progress by @lodlev-migdev
+* Added link to update server source by @lodlev-migdev
+* fixed up a few things so changes will run in 'production' build by @lodlev-migdev
+* set --clobber flag on 'gh release upload command' by @lodlev-migdev 
+* fixes for dev vs prod build by @lodlev-migdev
+* staging-v0.3.5 by @lodlev-migdev 
+* Fix setWindowButtonVisibility undefined on Linux/Windows by @gdbroman 
+* 892 new chat components by @drunkplato 
+* #926 choose urbit by @lodlev-migdev 
+* Frontend style guide by @gdbroman 
+* staging-v0.3.7 by @lodlev-migdev 
+* Enable tsc in CI by @gdbroman 
+* Fix rooms by @gdbroman 
+* Clean up remaining unnamed observer components by @gdbroman 
+* Fix undefined id var by @gdbroman 
+* Add back missing "Start" text for create room btn by @gdbroman 
+* force push by @lodlev-migdev 
+* force push by @lodlev-migdev 
+* rename to draft branch by @lodlev-migdev
+* rename to draft branch by @lodlev-migdev
+* rename to draft branch by @lodlev-migdev
+* rename to draft branch by @lodlev-migdev 
+* rename to draft branch by @lodlev-migdev 
+* rename to draft branch by @lodlev-migdev 
+* Fix mouse invisible on Windows/Linux by @gdbroman 
+* Add prerelease caveat in README by @gdbroman 
+* 185 auto update progress by @lodlev-migdev
+* Draft by @lodlev-migdev 
+* Tray app component by @drunkplato
+* draft test build thru PR by @lodlev-migdev
+* log pre-deploy inputs by @lodlev-migdev
+* Fix faulty import by @gdbroman 
+* log pre-deploy inputs by @lodlev-migdev 
+* TrayApp positioning fix by @drunkplato 
+* remove disabling of workflows to allow for parallel builds by @lodlev-migdev
+* Draft test by @lodlev-migdev
+* Draft test by @lodlev-migdev 
+* more windows updates by @lodlev-migdev 
+* Normalized window bounds by @gdbroman
+  -  Normalize window bounds in accordance with the [composer agent spec]
+  -  Strongly type all  `WindowModel` instances.
+  -  Decouple the App and Window models. E.g. a Window can be minimized – an App can't.
+  -  Fix the unpinned/pinned apps not exclusive categories issue.
+  -  Fix the minimized apps cannot be opened issue.
+  -  Add a minimize button to Relic.
+* fix #565 by @Tenari 
+* Move Storybook to root by @gdbroman
+
+https://user-images.githubusercontent.com/29574724/218070280-7b6db5ab-5526-480a-9b39-e01d4601b64d.jpg
+
+* Tag based build fix by @lodlev-migdev
+* Rm `--rlm-text-color` from global style by @gdbroman
+
+Before | After
+--- | ---
+![BTN_BEFORE](https://user-images.githubusercontent.com/29574724/218115849-00b513c9-183c-4fc8-84fd-2dd993023288.jpg) | ![BTN_AFTER](https://user-images.githubusercontent.com/29574724/218115884-a1efb33a-bab8-4521-bf46-6c11fd8efde5.jpg)
+
+* Style fixes for row and trays by @drunkplato 
+  - the Row component wasn't setting its text color so when we removed the global text style, it always was black. 
+  - tray app wouldn't grow when +4 people were in a room
+* add enhancement #596 hash details by @Tenari 
+* Windows build fixes by @lodlev-migdev 
+* 941 contact sharing realm by @leowini 
+* Fix docked app status indicator and more by @gdbroman 
+  ### Bug fixes:
+  - [x] Fix bug where docked apps' status indicator (for `isOpen`/`isActive`) isn't consistently working
+  - [x] Fix bug where https://github.com/holium/realm/issues/988 by persisting the order in MobX
+  - [x] Fix bug where Relic browser window doesn't rise to top on focus
+  ### New stuff:
+  - [x] Add a hide/show context menu option
+  - [x] Opening an app should close the home pane
+
+https://user-images.githubusercontent.com/29574724/218250878-ad6d3328-b799-44a0-86d5-3a79e5bef993.mov
+
+* Load mouse in AppUpdater by @gdbroman
+  ## What is changed
+  This PR splits out a standalone version of the mouse which listens for mouse events inside its container, as opposed to Electron IPC messages. The standalone mouse is then loaded in the AppUpdater BrowserWindow.
+
+Before | After
+--- | ---
+<video src="https://user-images.githubusercontent.com/29574724/218331398-27894107-ef25-4b5d-89db-10f4d0f49627.mov" /> | <video src="https://user-images.githubusercontent.com/29574724/218331401-2b289036-932b-4f44-9a90-17ba72707cdd.mov" /> 
+
+* Cleaning up Window & Titlebar components by @gdbroman
+  -  Clean up Window and Titlebar component abstractions, types, and file names
+  -  Enable bottom-left window resizing
+  -  Style windows w/ 90% opacity and blur
+
+https://user-images.githubusercontent.com/29574724/218436345-2e32ea58-045a-459c-9430-83f05b5e5170.mov
+
+* fixed wallet back button on onboarding and removed verb logs from agent by @drunkplato
+  * The arrow was falling out of the bottom prior, now is positioned correctly.
+
+<img width="360" alt="image" src="https://user-images.githubusercontent.com/6413077/218435476-1a5c9bf0-c529-4370-80db-567b78f3f3e7.png">
+
+* Switched Add members/friends TextButton to design-system TextButton by @leowini
+* release-v0.4.0 by @drunkplato 
+
 ### `v0.3.1` - 02/01/23
 * rooms relic fix & copy spaces path by @drunkplato
   * minor fixes for rooms and relic browser bug
