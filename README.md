@@ -88,7 +88,7 @@ This release contains:
 * fix #565 by @Tenari 
 * Move Storybook to root by @gdbroman
 
-https://user-images.githubusercontent.com/29574724/218070280-7b6db5ab-5526-480a-9b39-e01d4601b64d.jpg
+<img width="360" alt="image" src="https://user-images.githubusercontent.com/29574724/218070280-7b6db5ab-5526-480a-9b39-e01d4601b64d.jpg"> 
 
 * Tag based build fix by @lodlev-migdev
 * Rm `--rlm-text-color` from global style by @gdbroman
