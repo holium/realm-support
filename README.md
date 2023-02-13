@@ -105,12 +105,12 @@ Before | After
 * 941 contact sharing realm by @leowini 
 * Fix docked app status indicator and more by @gdbroman 
   ### Bug fixes:
-  - [x] Fix bug where docked apps' status indicator (for `isOpen`/`isActive`) isn't consistently working
-  - [x] Fix bug where https://github.com/holium/realm/issues/988 by persisting the order in MobX
-  - [x] Fix bug where Relic browser window doesn't rise to top on focus
+  -  Fix bug where docked apps' status indicator (for `isOpen`/`isActive`) isn't consistently working
+  -  Fix bug where https://github.com/holium/realm/issues/988 by persisting the order in MobX
+  -  Fix bug where Relic browser window doesn't rise to top on focus
   ### New stuff:
-  - [x] Add a hide/show context menu option
-  - [x] Opening an app should close the home pane
+  -  Add a hide/show context menu option
+  -  Opening an app should close the home pane
 
 https://user-images.githubusercontent.com/29574724/218250878-ad6d3328-b799-44a0-86d5-3a79e5bef993.mov
 
