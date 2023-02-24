@@ -42,17 +42,44 @@ https://user-images.githubusercontent.com/29574724/213758027-96815df5-e71b-4f36-
 * Update Holium handle in ErrorBoundary by @gdbroman
 * Rooms udp fix 2 by @drunkplato
 * Fix null space description error by @gdbroman
+ * This fixes a bug where the app crashes when you click "Edit" on a space without a description (but only seemed to happen sometimes).
+ 
+ https://user-images.githubusercontent.com/29574724/214273428-aece2b07-dbe7-4cdd-a9b9-9253f35daceb.mov
+ 
 * Add PR lint step by @gdbroman
 * Rooms udp fix 3 by @drunkplato
 * channel set to 'latest' when not 'alpha' by @lodlev-migdev
 * found a useMemo happening after a return null by @drunkplato
 * quick fix by @drunkplato
 * Wallet release alpha by @drunkplato
+ * Wallet tray app
+  * Manage addresses
+  * Send / Receive eth, erc-20
+  * View NFTs
+  * Manage settings
+ * Save notes on each transaction 
+ * Encryption for credentials and mnemonic
+ * Delete HD wallet locally
+ * Delete HD wallet metadata on ship
+ * %realm-wallet agent for storing metadata and sending crypto via @p 
+ * Save notes on each transaction 
+ * Encryption for credentials and mnemonic
+ * Delete HD wallet locally
+ * Delete HD wallet metadata on ship
+ * %realm-wallet agent for storing metadata and sending crypto via @p 
 * Wallet Store -> DiskStore by @drunkplato
 * fixed wallet avatar bug and moon truncation in transaction list by @drunkplato
 * scrollview fix for webview by @drunkplato
 * Fix crash during ship boot by @gdbroman
+
+https://user-images.githubusercontent.com/29574724/215357806-6b5cae54-31f0-4533-93f7-175ac9196721.mov
+
 * Wallet prod rpc fix by @drunkplato 
+ * useRooms was crashing when click out of the wallet when the Relic browser was open from a transaction link.
+ * transaction screen defaults to first address even if on another address.
+ * Adding usd conversion to various screens
+ * Adding hour and min to transaction details.
+ * fix erc-20 coin send transaction
 * Wallet tx to from fix by @leowini
 * release-v0.3.0 by @drunkplato
 * Fix conditional hooks not being caught inside observer components by @gdbroman
@@ -60,7 +87,25 @@ https://user-images.githubusercontent.com/29574724/213758027-96815df5-e71b-4f36-
 * Save the currently opened space in %spaces by @ajlamarc
 * rooms relic fix & copy spaces path by @drunkplato
 * release-v0.3.1 by @drunkplato
+ * minor fixes for rooms and relic browser bug
+ * copy link context menu option for SpaceRow component
+ * current space added to `%spaces` agent state
 * Move mouse to its own layer by @gdbroman
+ * The mouse is rendered in a transparent overlay Browserwindow.
+ * Feature parity:
+ - [x] Left & right click
+ - [x] Dragging
+ - [x] Mouse states
+  - [x] Pointer
+  - [x] Text
+  - [x] Resize
+  - [x] Active 
+ * New:
+ - [x] Custom cursor in WebViews
+  - [x] Handle updated relative position when WebViews move
+  - [x] Handle updated relative position when WebViews are maximized
+ - [x] Use Webpack to build a separate mouse.html on starting/building app
+ 
 * fixed up a few things so changes will run in 'production' build by @lodlev-migdev
 * set --clobber flag on 'gh release upload command' by @lodlev-migdev
 * Fix setWindowButtonVisibility undefined on Linux/Windows by @gdbroman
