@@ -22,13 +22,6 @@ If you have an issue with an app supported by Holium, click below to post detail
 * 185 auto update progress by @lodlev-migdev
 * Tray app component by @drunkplato
 * TrayApp positioning fix by @drunkplato 
-* Normalized window bounds by @gdbroman
-* Fix the unpinned/pinned apps not exclusive categories issue.
-* Fix the minimized apps cannot be opened issue.
-* Add a minimize button to Relic. 
-* Style fixes for row and trays by @drunkplato
-  * the Row component wasn't setting its text color so when we removed the global text style, it always was black.
-  * tray app wouldn't grow when +4 people were in a room 
 * 941 contact sharing realm by @leowini 
 * Fix docked app status indicator and more by @gdbroman
 
@@ -60,54 +53,22 @@ This release contains:
 - contact sharing is now fully handled by Realm
 - windows build updater and fixes
 - tray app system is revamped 
-* 489 deployment updates by @lodlev-migdev
-* staging-v0.1.3 by @lodlev-migdev
-* staging-v0.1.3 by @lodlev-migdev
-* staging-v0.1.3 by @lodlev-migdev
-* more build testing by @lodlev-migdev
-* no longer update and commit files (e.g. package.json and docket files… by @lodlev-migdev
-* no longer update and commit files (e.g. package.json and docket files… by @lodlev-migdev
-* no longer update and commit files (e.g. package.json and docket files… by @lodlev-migdev
-* staging-v0.1.2 by @lodlev-migdev
-* staging-v0.1.2 by @lodlev-migdev
-* staging-v0.1.2 by @lodlev-migdev
-* staging-v0.1.2 by @lodlev-migdev
-* no longer update and commit files (e.g. package.json and docket files… by @lodlev-migdev
-* no longer update and commit files (e.g. package.json and docket files… by @lodlev-migdev
-* hotfix-v0.3.1 by @lodlev-migdev
-* testing new hotfix release pipelines by @lodlev-migdev
-* force another build as part of testing by @lodlev-migdev
-* hotfix-v0.3.2 by @lodlev-migdev
 * Move mouse to its own layer by @gdbroman
-* staging-v0.3.3 by @lodlev-migdev
 * App update progress by @lodlev-migdev
 * Added link to update server source by @lodlev-migdev
 * fixed up a few things so changes will run in 'production' build by @lodlev-migdev
 * set --clobber flag on 'gh release upload command' by @lodlev-migdev 
 * fixes for dev vs prod build by @lodlev-migdev
-* staging-v0.3.5 by @lodlev-migdev 
 * Fix setWindowButtonVisibility undefined on Linux/Windows by @gdbroman 
 * 892 new chat components by @drunkplato 
 * #926 choose urbit by @lodlev-migdev 
 * Frontend style guide by @gdbroman 
-* staging-v0.3.7 by @lodlev-migdev 
 * Enable tsc in CI by @gdbroman 
 * Fix rooms by @gdbroman 
 * Clean up remaining unnamed observer components by @gdbroman 
-* Fix undefined id var by @gdbroman 
-* Add back missing "Start" text for create room btn by @gdbroman 
-* force push by @lodlev-migdev 
-* force push by @lodlev-migdev 
-* rename to draft branch by @lodlev-migdev
-* rename to draft branch by @lodlev-migdev
-* rename to draft branch by @lodlev-migdev
-* rename to draft branch by @lodlev-migdev 
-* rename to draft branch by @lodlev-migdev 
-* rename to draft branch by @lodlev-migdev 
 * Fix mouse invisible on Windows/Linux by @gdbroman 
 * Add prerelease caveat in README by @gdbroman 
 * 185 auto update progress by @lodlev-migdev
-* Draft by @lodlev-migdev 
 * Tray app component by @drunkplato
 * draft test build thru PR by @lodlev-migdev
 * log pre-deploy inputs by @lodlev-migdev
@@ -115,8 +76,6 @@ This release contains:
 * log pre-deploy inputs by @lodlev-migdev 
 * TrayApp positioning fix by @drunkplato 
 * remove disabling of workflows to allow for parallel builds by @lodlev-migdev
-* Draft test by @lodlev-migdev
-* Draft test by @lodlev-migdev 
 * more windows updates by @lodlev-migdev 
 * Normalized window bounds by @gdbroman
   -  Normalize window bounds in accordance with the [composer agent spec]
