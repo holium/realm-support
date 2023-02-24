@@ -15,147 +15,25 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ### `v0.5.0` - 02/23/23
 
-Remove bitcoin option by @drunkplato
-* Wallet encryption by @drunkplato
-* test and fix test-build by @lodlev-migdev
-* properly refresh roomsManager
-* release-v0.1.1 by @drunkplato
-  * properly refreshes roomsManager context in useRooms
-* rooms cleanup fix attempt 2 by @drunkplato
-* no longer update and commit files (e.g. package.json and docket files… by @lodlev-migdev
-* Room connection fixes by @drunkplato
-  * now the dial, waiting, ack-waiting flow is set for the proper ordering of handshakes
-* Rooms dial waiting ack flow fixes 2 by @drunkplato
-* Reorder pinned apps by @gdbroman
-  * Fix reordering of pinned apps
-    * Fix context menu actions (pin & close)
-    * Make it so that apps aren't accidentally opened when reordering them
-    * Clean up ContextMenu styles + types
-
-https://user-images.githubusercontent.com/29574724/213758027-96815df5-e71b-4f36-a578-8668d8457f75.mov
-
-* Rooms transport udp by @drunkplato
-* fix for 'gh release update..' command when running windows build by @lodlev-migdev
-* sync'd latest staging and production builds by @lodlev-migdev
-* touch to force change so can PR and build by @lodlev-migdev
-* added the new urls to the BaseProtocol not useRooms... by @drunkplato
-* Update Holium handle in ErrorBoundary by @gdbroman
-* Rooms udp fix 2 by @drunkplato
-* Fix null space description error by @gdbroman
-  * This fixes a bug where the app crashes when you click "Edit" on a space without a description (but only seemed to happen sometimes).
- 
- * https://user-images.githubusercontent.com/29574724/214273428-aece2b07-dbe7-4cdd-a9b9-9253f35daceb.mov
- 
-* Add PR lint step by @gdbroman
-* Rooms udp fix 3 by @drunkplato
-* channel set to 'latest' when not 'alpha' by @lodlev-migdev
-* found a useMemo happening after a return null by @drunkplato
-* quick fix by @drunkplato
-* Wallet release alpha by @drunkplato
-  * Wallet tray app
-   * Manage addresses
-   * Send / Receive eth, erc-20
-   * View NFTs
-   * Manage settings
-  * Save notes on each transaction 
-  * Encryption for credentials and mnemonic
-  * Delete HD wallet locally
-  * Delete HD wallet metadata on ship
-  * %realm-wallet agent for storing metadata and sending crypto via @p 
-  * Save notes on each transaction 
-  * Encryption for credentials and mnemonic
-  * Delete HD wallet locally
-  * Delete HD wallet metadata on ship
-  * %realm-wallet agent for storing metadata and sending crypto via @p 
-* Wallet Store -> DiskStore by @drunkplato
-* fixed wallet avatar bug and moon truncation in transaction list by @drunkplato
-* scrollview fix for webview by @drunkplato
-* Fix crash during ship boot by @gdbroman
-
-https://user-images.githubusercontent.com/29574724/215357806-6b5cae54-31f0-4533-93f7-175ac9196721.mov
-
-* Wallet prod rpc fix by @drunkplato 
-  * useRooms was crashing when click out of the wallet when the Relic browser was open from a transaction link.
-  * transaction screen defaults to first address even if on another address.
-  * Adding usd conversion to various screens
-  * Adding hour and min to transaction details.
-  * fix erc-20 coin send transaction
-* Wallet tx to from fix by @leowini
-* release-v0.3.0 by @drunkplato
-* Fix conditional hooks not being caught inside observer components by @gdbroman
-* Fix null snapshot on boot by @gdbroman
 * Save the currently opened space in %spaces by @ajlamarc
 * rooms relic fix & copy spaces path by @drunkplato
-* release-v0.3.1 by @drunkplato
-  * minor fixes for rooms and relic browser bug
-  * copy link context menu option for SpaceRow component
-  * current space added to `%spaces` agent state
- * Move mouse to its own layer by @gdbroman
-   * The mouse is rendered in a transparent overlay Browserwindow.
-   * Feature parity:
-    * Left & right click
-    * Dragging
-    * Mouse states
-    * Pointer
-    * Text
-    * Resize
-    * Active 
-   * New:
-   * Custom cursor in WebViews
-    * Handle updated relative position when WebViews move
-    * Handle updated relative position when WebViews are maximized
-    * Use Webpack to build a separate mouse.html on starting/building app
-* fixed up a few things so changes will run in 'production' build by @lodlev-migdev
-* set --clobber flag on 'gh release upload command' by @lodlev-migdev
-* Fix setWindowButtonVisibility undefined on Linux/Windows by @gdbroman
-* 892 new chat components by @drunkplato
-* Frontend style guide by @gdbroman
-* Enable tsc in CI by @gdbroman 
-* Fix rooms by @gdbroman
-* Clean up remaining unnamed observer components by @gdbroman
-* Fix undefined id var by @gdbroman 
 * Add back missing "Start" text for create room btn by @gdbroman 
-* force push by @lodlev-migdev
-* force push by @lodlev-migdev
-* rename to draft branch by @lodlev-migdev 
 * Fix mouse invisible on Windows/Linux by @gdbroman
-* Add prerelease caveat in README by @gdbroman 
 * 185 auto update progress by @lodlev-migdev
-* Draft by @lodlev-migdev 
 * Tray app component by @drunkplato
-* draft test build thru PR by @lodlev-migdev 
-* Fix faulty import by @gdbroman 
 * TrayApp positioning fix by @drunkplato 
-* remove disabling of workflows to allow for parallel builds by @lodlev-migdev
-* more windows updates by @lodlev-migdev 
 * Normalized window bounds by @gdbroman
-  * Normalize window bounds in accordance with the [composer agent spec]
-  * Strongly type all  `WindowModel` instances.
-  * Decouple the App and Window models. E.g. a Window can be minimized – an App can't.
-  * Fix the unpinned/pinned apps not exclusive categories issue.
-  * Fix the minimized apps cannot be opened issue.
-  * Add a minimize button to Relic. 
-* fix #565 by @Tenari 
-* Move Storybook to root by @gdbroman
-* Tag based build fix by @lodlev-migdev 
-* Rm `--rlm-text-color` from global style by @gdbroman 
+* Fix the unpinned/pinned apps not exclusive categories issue.
+* Fix the minimized apps cannot be opened issue.
+* Add a minimize button to Relic. 
 * Style fixes for row and trays by @drunkplato
   * the Row component wasn't setting its text color so when we removed the global text style, it always was black.
   * tray app wouldn't grow when +4 people were in a room 
-* add enhancement #596 hash details by @Tenari 
-* Windows build fixes by @lodlev-migdev 
 * 941 contact sharing realm by @leowini 
 * Fix docked app status indicator and more by @gdbroman
-  * Bug fixes:
-   * Fix bug where docked apps' status indicator (for `isOpen`/`isActive`) isn't consistently working
-   * Fix bug where Relic browser window doesn't rise to top on focus
-  * New stuff:
-   * Add a hide/show context menu option
-   * Opening an app should close the home pane
 
 https://user-images.githubusercontent.com/29574724/218250878-ad6d3328-b799-44a0-86d5-3a79e5bef993.mov
 
-* Load mouse in AppUpdater by @gdbroman 
 * Cleaning up Window & Titlebar components by @gdbroman 
   * Clean up Window and Titlebar component abstractions, types, and file names
   * Enable bottom-left window resizing
@@ -164,43 +42,16 @@ https://user-images.githubusercontent.com/29574724/218250878-ad6d3328-b799-44a0-
 https://user-images.githubusercontent.com/29574724/218436345-2e32ea58-045a-459c-9430-83f05b5e5170.mov
 
 * fixed wallet back button on onboarding and removed verb logs from agent by @drunkplato 
-* Switched Add members/friends TextButton to design-system TextButton by @leowini 
 * Filter out null previews so ContactRow doesn't crash by @gdbroman
 * Fix app links not being opened in relic by @gdbroman
-* App window enhancements by @gdbroman 
-* Replace all default exports with named exports by @gdbroman 
 * Edit member role set by @leowini 
-* 922 ship code change fix by @lodlev-migdev
-* Make multiplayer declare global more specific by @gdbroman 
-* Update broken urbit binary link in root README.md by @gdbroman 
-* Rm unused packages by @gdbroman 
 * support for linux builds by @lodlev-migdev
-* removed Sentyr build workflow. will need to move it to a test pipelin… by @lodlev-migdev
-* Make multiplayer declare global more specific by @drunkplato 
-* Add primary color for selected reactions by @ajlamarc 
-* Spaces fixes by @leowini 
-* Include contacts in %friends /all scry by @leowini 
 * fix for account recovery via email address and printing better error … by @lodlev-migdev 
-* Test UI Vite by @leowini 
 * Use default cursor on Linux by @gdbroman 
-* Remove unnecessary global declare by @gdbroman
-* dialog close was using app window close by @drunkplato 
-* Default ship for off urbit, tinted background by @ajlamarc
 * fixed bug where the Add Ship feature was not installing Realm due to … by @lodlev-migdev 
-* Fix profile setup dialog flex orientation by @gdbroman
 * System settings - Interface - Isolation Mode by @gdbroman 
-* Linux fixes by @gdbroman
 * 644 speaking detection by @drunkplato
-* Fix mouse state not always updating to `text` by @gdbroman
-* Saving cached data to friends by @leowini 
 * Fix crash on pressing `esc` for dialogs by @gdbroman 
-* Revert "Fix crash on pressing `esc` for dialogs" by @gdbroman 
-* Dialog fixes by @gdbroman
-* Fix: some SVGs are black by @gdbroman 
-* Fix RGB build error by @gdbroman 
-* Fix failing preconstruct build: RGB workaround by @gdbroman
-* padding to text button by @drunkplato 
-* release-v0.5.0 by @drunkplato 
 
 ### `v0.4.0` - 02/13/23
 This release contains: 
