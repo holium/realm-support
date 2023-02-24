@@ -91,20 +91,20 @@ https://user-images.githubusercontent.com/29574724/215357806-6b5cae54-31f0-4533-
   * copy link context menu option for SpaceRow component
   * current space added to `%spaces` agent state
  * Move mouse to its own layer by @gdbroman
-  * The mouse is rendered in a transparent overlay Browserwindow.
-  * Feature parity:
-   * Left & right click
-   * Dragging
-   * Mouse states
-   * Pointer
-   * Text
-   * Resize
-   * Active 
-  * New:
-  * Custom cursor in WebViews
-   * Handle updated relative position when WebViews move
-   * Handle updated relative position when WebViews are maximized
-   * Use Webpack to build a separate mouse.html on starting/building app
+   * The mouse is rendered in a transparent overlay Browserwindow.
+   * Feature parity:
+    * Left & right click
+    * Dragging
+    * Mouse states
+    * Pointer
+    * Text
+    * Resize
+    * Active 
+   * New:
+   * Custom cursor in WebViews
+    * Handle updated relative position when WebViews move
+    * Handle updated relative position when WebViews are maximized
+    * Use Webpack to build a separate mouse.html on starting/building app
 * fixed up a few things so changes will run in 'production' build by @lodlev-migdev
 * set --clobber flag on 'gh release upload command' by @lodlev-migdev
 * Fix setWindowButtonVisibility undefined on Linux/Windows by @gdbroman
@@ -129,19 +129,19 @@ https://user-images.githubusercontent.com/29574724/215357806-6b5cae54-31f0-4533-
 * remove disabling of workflows to allow for parallel builds by @lodlev-migdev
 * more windows updates by @lodlev-migdev 
 * Normalized window bounds by @gdbroman
- * Normalize window bounds in accordance with the [composer agent spec]
- * Strongly type all  `WindowModel` instances.
- * Decouple the App and Window models. E.g. a Window can be minimized – an App can't.
- * Fix the unpinned/pinned apps not exclusive categories issue.
- * Fix the minimized apps cannot be opened issue.
- * Add a minimize button to Relic. 
+  * Normalize window bounds in accordance with the [composer agent spec]
+  * Strongly type all  `WindowModel` instances.
+  * Decouple the App and Window models. E.g. a Window can be minimized – an App can't.
+  * Fix the unpinned/pinned apps not exclusive categories issue.
+  * Fix the minimized apps cannot be opened issue.
+  * Add a minimize button to Relic. 
 * fix #565 by @Tenari 
 * Move Storybook to root by @gdbroman
 * Tag based build fix by @lodlev-migdev 
 * Rm `--rlm-text-color` from global style by @gdbroman 
 * Style fixes for row and trays by @drunkplato
- * the Row component wasn't setting its text color so when we removed the global text style, it always was black.
- * tray app wouldn't grow when +4 people were in a room 
+  * the Row component wasn't setting its text color so when we removed the global text style, it always was black.
+  * tray app wouldn't grow when +4 people were in a room 
 * add enhancement #596 hash details by @Tenari 
 * Windows build fixes by @lodlev-migdev 
 * 941 contact sharing realm by @leowini 
