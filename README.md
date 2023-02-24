@@ -18,24 +18,11 @@ If you have an issue with an app supported by Holium, click below to post detail
 Remove bitcoin option by @drunkplato
 * Wallet encryption by @drunkplato
 * test and fix test-build by @lodlev-migdev
-* 489 deployment updates by @lodlev-migdev
-* fix for production build by @lodlev-migdev
-* 489 deployment updates by @lodlev-migdev
 * properly refresh roomsManager
 * release-v0.1.1 by @drunkplato
   * properly refreshes roomsManager context in useRooms
-* release-v0.1.1 by @lodlev-migdev
-* 489 deployment updates by @lodlev-migdev
 * rooms cleanup fix attempt 2 by @drunkplato
-* 489 deployment updates by @lodlev-migdev
-* testing builds by @lodlev-migdev
-* 489 deployment updates by @lodlev-migdev
-* staging-v0.1.3 by @lodlev-migdev
-* more build testing by @lodlev-migdev
 * no longer update and commit files (e.g. package.json and docket files… by @lodlev-migdev
-* staging-v0.1.2 by @lodlev-migdev
-* no longer update and commit files (e.g. package.json and docket files… by @lodlev-migdev
-* staging-v0.1.1 by @lodlev-migdev
 * Room connection fixes by @drunkplato
   * now the dial, waiting, ack-waiting flow is set for the proper ordering of handshakes
 * Rooms dial waiting ack flow fixes 2 by @drunkplato
@@ -57,13 +44,10 @@ https://user-images.githubusercontent.com/29574724/213758027-96815df5-e71b-4f36-
 * Fix null space description error by @gdbroman
 * Add PR lint step by @gdbroman
 * Rooms udp fix 3 by @drunkplato
-* release-v0.1.2 by @lodlev-migdev
 * channel set to 'latest' when not 'alpha' by @lodlev-migdev
-* release-v0.2.1 by @lodlev-migdev
 * found a useMemo happening after a return null by @drunkplato
 * quick fix by @drunkplato
 * Wallet release alpha by @drunkplato
-* staging-v0.2.4 by @lodlev-migdev
 * Wallet Store -> DiskStore by @drunkplato
 * fixed wallet avatar bug and moon truncation in transaction list by @drunkplato
 * scrollview fix for webview by @drunkplato
@@ -71,28 +55,17 @@ https://user-images.githubusercontent.com/29574724/213758027-96815df5-e71b-4f36-
 * Wallet prod rpc fix by @drunkplato 
 * Wallet tx to from fix by @leowini
 * release-v0.3.0 by @drunkplato
-* hotfix-v0.3.1 by @lodlev-migdev
 * Fix conditional hooks not being caught inside observer components by @gdbroman
 * Fix null snapshot on boot by @gdbroman
 * Save the currently opened space in %spaces by @ajlamarc
-* testing new hotfix release pipelines by @lodlev-migdev
-* force another build as part of testing by @lodlev-migdev
-* hotfix-v0.3.2 by @lodlev-migdev
 * rooms relic fix & copy spaces path by @drunkplato
 * release-v0.3.1 by @drunkplato
 * Move mouse to its own layer by @gdbroman
-* staging-v0.3.3 by @lodlev-migdev
-* App update progress by @lodlev-migdev
-* Added link to update server source by @lodlev-migdev
 * fixed up a few things so changes will run in 'production' build by @lodlev-migdev
 * set --clobber flag on 'gh release upload command' by @lodlev-migdev
-* fixes for dev vs prod build by @lodlev-migdev
-* staging-v0.3.5 by @lodlev-migdev
 * Fix setWindowButtonVisibility undefined on Linux/Windows by @gdbroman
 * 892 new chat components by @drunkplato
-* #926 choose urbit by @lodlev-migdev
 * Frontend style guide by @gdbroman
-* staging-v0.3.7 by @lodlev-migdev
 * Enable tsc in CI by @gdbroman 
 * Fix rooms by @gdbroman
 * Clean up remaining unnamed observer components by @gdbroman
@@ -107,12 +80,9 @@ https://user-images.githubusercontent.com/29574724/213758027-96815df5-e71b-4f36-
 * Draft by @lodlev-migdev 
 * Tray app component by @drunkplato
 * draft test build thru PR by @lodlev-migdev 
-* log pre-deploy inputs by @lodlev-migdev
 * Fix faulty import by @gdbroman 
-* log pre-deploy inputs by @lodlev-migdev
 * TrayApp positioning fix by @drunkplato 
 * remove disabling of workflows to allow for parallel builds by @lodlev-migdev
-* Draft test by @lodlev-migdev
 * more windows updates by @lodlev-migdev 
 * Normalized window bounds by @gdbroman 
 * fix #565 by @Tenari 
@@ -139,8 +109,6 @@ https://user-images.githubusercontent.com/29574724/213758027-96815df5-e71b-4f36-
 * Update broken urbit binary link in root README.md by @gdbroman 
 * Rm unused packages by @gdbroman 
 * support for linux builds by @lodlev-migdev
-* typo by @lodlev-migdev 
-* Source mapping by @lodlev-migdev
 * removed Sentyr build workflow. will need to move it to a test pipelin… by @lodlev-migdev
 * Make multiplayer declare global more specific by @drunkplato 
 * Add primary color for selected reactions by @ajlamarc 
@@ -167,8 +135,6 @@ https://user-images.githubusercontent.com/29574724/213758027-96815df5-e71b-4f36-
 * Fix failing preconstruct build: RGB workaround by @gdbroman
 * padding to text button by @drunkplato 
 * release-v0.5.0 by @drunkplato 
-* no mv -f command needed in production by @lodlev-migdev 
-* release-v0.5.0 by @lodlev-migdev
 
 ### `v0.4.0` - 02/13/23
 This release contains: 
