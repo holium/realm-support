@@ -146,20 +146,20 @@ https://user-images.githubusercontent.com/29574724/215357806-6b5cae54-31f0-4533-
 * Windows build fixes by @lodlev-migdev 
 * 941 contact sharing realm by @leowini 
 * Fix docked app status indicator and more by @gdbroman
-  ### Bug fixes:
- * Fix bug where docked apps' status indicator (for `isOpen`/`isActive`) isn't consistently working
- * Fix bug where Relic browser window doesn't rise to top on focus
-  ### New stuff:
- * Add a hide/show context menu option
- * Opening an app should close the home pane
+  * Bug fixes:
+   * Fix bug where docked apps' status indicator (for `isOpen`/`isActive`) isn't consistently working
+   * Fix bug where Relic browser window doesn't rise to top on focus
+  * New stuff:
+   * Add a hide/show context menu option
+   * Opening an app should close the home pane
 
 https://user-images.githubusercontent.com/29574724/218250878-ad6d3328-b799-44a0-86d5-3a79e5bef993.mov
 
 * Load mouse in AppUpdater by @gdbroman 
 * Cleaning up Window & Titlebar components by @gdbroman 
- * Clean up Window and Titlebar component abstractions, types, and file names
- * Enable bottom-left window resizing
- * Style windows w/ 90% opacity and blur
+  * Clean up Window and Titlebar component abstractions, types, and file names
+  * Enable bottom-left window resizing
+  * Style windows w/ 90% opacity and blur
 
 https://user-images.githubusercontent.com/29574724/218436345-2e32ea58-045a-459c-9430-83f05b5e5170.mov
 
