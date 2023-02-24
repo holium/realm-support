@@ -87,24 +87,24 @@ https://user-images.githubusercontent.com/29574724/215357806-6b5cae54-31f0-4533-
 * Save the currently opened space in %spaces by @ajlamarc
 * rooms relic fix & copy spaces path by @drunkplato
 * release-v0.3.1 by @drunkplato
- * minor fixes for rooms and relic browser bug
- * copy link context menu option for SpaceRow component
- * current space added to `%spaces` agent state
-* Move mouse to its own layer by @gdbroman
- * The mouse is rendered in a transparent overlay Browserwindow.
- * Feature parity:
-  * Left & right click
-  * Dragging
-  * Mouse states
-  * Pointer
-  * Text
-  * Resize
-  * Active 
- * New:
- * Custom cursor in WebViews
-  * Handle updated relative position when WebViews move
-  * Handle updated relative position when WebViews are maximized
-  * Use Webpack to build a separate mouse.html on starting/building app
+  * minor fixes for rooms and relic browser bug
+  * copy link context menu option for SpaceRow component
+  * current space added to `%spaces` agent state
+ * Move mouse to its own layer by @gdbroman
+  * The mouse is rendered in a transparent overlay Browserwindow.
+  * Feature parity:
+   * Left & right click
+   * Dragging
+   * Mouse states
+   * Pointer
+   * Text
+   * Resize
+   * Active 
+  * New:
+  * Custom cursor in WebViews
+   * Handle updated relative position when WebViews move
+   * Handle updated relative position when WebViews are maximized
+   * Use Webpack to build a separate mouse.html on starting/building app
 * fixed up a few things so changes will run in 'production' build by @lodlev-migdev
 * set --clobber flag on 'gh release upload command' by @lodlev-migdev
 * Fix setWindowButtonVisibility undefined on Linux/Windows by @gdbroman
