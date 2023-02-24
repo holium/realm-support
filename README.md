@@ -75,11 +75,11 @@ https://user-images.githubusercontent.com/29574724/213758027-96815df5-e71b-4f36-
 https://user-images.githubusercontent.com/29574724/215357806-6b5cae54-31f0-4533-93f7-175ac9196721.mov
 
 * Wallet prod rpc fix by @drunkplato 
- * useRooms was crashing when click out of the wallet when the Relic browser was open from a transaction link.
- * transaction screen defaults to first address even if on another address.
- * Adding usd conversion to various screens
- * Adding hour and min to transaction details.
- * fix erc-20 coin send transaction
+  * useRooms was crashing when click out of the wallet when the Relic browser was open from a transaction link.
+  * transaction screen defaults to first address even if on another address.
+  * Adding usd conversion to various screens
+  * Adding hour and min to transaction details.
+  * fix erc-20 coin send transaction
 * Wallet tx to from fix by @leowini
 * release-v0.3.0 by @drunkplato
 * Fix conditional hooks not being caught inside observer components by @gdbroman
@@ -129,7 +129,7 @@ https://user-images.githubusercontent.com/29574724/215357806-6b5cae54-31f0-4533-
 * remove disabling of workflows to allow for parallel builds by @lodlev-migdev
 * more windows updates by @lodlev-migdev 
 * Normalized window bounds by @gdbroman
- * Normalize window bounds in accordance with the [composer agent spec](https://github.com/holium/realm/issues/929#issue-1558441211).
+ * Normalize window bounds in accordance with the [composer agent spec]
  * Strongly type all  `WindowModel` instances.
  * Decouple the App and Window models. E.g. a Window can be minimized – an App can't.
  * Fix the unpinned/pinned apps not exclusive categories issue.
@@ -148,7 +148,6 @@ https://user-images.githubusercontent.com/29574724/215357806-6b5cae54-31f0-4533-
 * Fix docked app status indicator and more by @gdbroman
   ### Bug fixes:
  * Fix bug where docked apps' status indicator (for `isOpen`/`isActive`) isn't consistently working
- * Fix bug where https://github.com/holium/realm/issues/988 by persisting the order in MobX
  * Fix bug where Relic browser window doesn't rise to top on focus
   ### New stuff:
  * Add a hide/show context menu option
