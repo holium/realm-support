@@ -52,21 +52,21 @@ https://user-images.githubusercontent.com/29574724/213758027-96815df5-e71b-4f36-
 * found a useMemo happening after a return null by @drunkplato
 * quick fix by @drunkplato
 * Wallet release alpha by @drunkplato
- * Wallet tray app
-  * Manage addresses
-  * Send / Receive eth, erc-20
-  * View NFTs
-  * Manage settings
- * Save notes on each transaction 
- * Encryption for credentials and mnemonic
- * Delete HD wallet locally
- * Delete HD wallet metadata on ship
- * %realm-wallet agent for storing metadata and sending crypto via @p 
- * Save notes on each transaction 
- * Encryption for credentials and mnemonic
- * Delete HD wallet locally
- * Delete HD wallet metadata on ship
- * %realm-wallet agent for storing metadata and sending crypto via @p 
+  * Wallet tray app
+   * Manage addresses
+   * Send / Receive eth, erc-20
+   * View NFTs
+   * Manage settings
+  * Save notes on each transaction 
+  * Encryption for credentials and mnemonic
+  * Delete HD wallet locally
+  * Delete HD wallet metadata on ship
+  * %realm-wallet agent for storing metadata and sending crypto via @p 
+  * Save notes on each transaction 
+  * Encryption for credentials and mnemonic
+  * Delete HD wallet locally
+  * Delete HD wallet metadata on ship
+  * %realm-wallet agent for storing metadata and sending crypto via @p 
 * Wallet Store -> DiskStore by @drunkplato
 * fixed wallet avatar bug and moon truncation in transaction list by @drunkplato
 * scrollview fix for webview by @drunkplato
