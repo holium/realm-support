@@ -158,9 +158,14 @@ https://user-images.githubusercontent.com/29574724/218250878-ad6d3328-b799-44a0-
 
 * Load mouse in AppUpdater by @gdbroman 
 * Cleaning up Window & Titlebar components by @gdbroman 
+ * Clean up Window and Titlebar component abstractions, types, and file names
+ * Enable bottom-left window resizing
+ * Style windows w/ 90% opacity and blur
+
+https://user-images.githubusercontent.com/29574724/218436345-2e32ea58-045a-459c-9430-83f05b5e5170.mov
+
 * fixed wallet back button on onboarding and removed verb logs from agent by @drunkplato 
 * Switched Add members/friends TextButton to design-system TextButton by @leowini 
-* release-v0.4.0 by @drunkplato
 * Filter out null previews so ContactRow doesn't crash by @gdbroman
 * Fix app links not being opened in relic by @gdbroman
 * App window enhancements by @gdbroman 
