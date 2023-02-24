@@ -93,19 +93,18 @@ https://user-images.githubusercontent.com/29574724/215357806-6b5cae54-31f0-4533-
 * Move mouse to its own layer by @gdbroman
  * The mouse is rendered in a transparent overlay Browserwindow.
  * Feature parity:
- - [x] Left & right click
- - [x] Dragging
- - [x] Mouse states
-  - [x] Pointer
-  - [x] Text
-  - [x] Resize
-  - [x] Active 
+  * Left & right click
+  * Dragging
+  * Mouse states
+  * Pointer
+  * Text
+  * Resize
+  * Active 
  * New:
- - [x] Custom cursor in WebViews
-  - [x] Handle updated relative position when WebViews move
-  - [x] Handle updated relative position when WebViews are maximized
- - [x] Use Webpack to build a separate mouse.html on starting/building app
- 
+ * Custom cursor in WebViews
+  * Handle updated relative position when WebViews move
+  * Handle updated relative position when WebViews are maximized
+  * Use Webpack to build a separate mouse.html on starting/building app
 * fixed up a few things so changes will run in 'production' build by @lodlev-migdev
 * set --clobber flag on 'gh release upload command' by @lodlev-migdev
 * Fix setWindowButtonVisibility undefined on Linux/Windows by @gdbroman
@@ -129,11 +128,20 @@ https://user-images.githubusercontent.com/29574724/215357806-6b5cae54-31f0-4533-
 * TrayApp positioning fix by @drunkplato 
 * remove disabling of workflows to allow for parallel builds by @lodlev-migdev
 * more windows updates by @lodlev-migdev 
-* Normalized window bounds by @gdbroman 
+* Normalized window bounds by @gdbroman
+ * Normalize window bounds in accordance with the [composer agent spec](https://github.com/holium/realm/issues/929#issue-1558441211).
+ * Strongly type all  `WindowModel` instances.
+ * Decouple the App and Window models. E.g. a Window can be minimized – an App can't.
+ * Fix the unpinned/pinned apps not exclusive categories issue.
+ * Fix the minimized apps cannot be opened issue.
+ * Add a minimize button to Relic. 
 * fix #565 by @Tenari 
 * Move Storybook to root by @gdbroman
 * Tag based build fix by @lodlev-migdev 
 * Rm `--rlm-text-color` from global style by @gdbroman 
+ * Before | After
+--- | ---
+![BTN_BEFORE](https://user-images.githubusercontent.com/29574724/218115849-00b513c9-183c-4fc8-84fd-2dd993023288.jpg) | ![BTN_AFTER](https://user-images.githubusercontent.com/29574724/218115884-a1efb33a-bab8-4521-bf46-6c11fd8efde5.jpg)
 * Style fixes for row and trays by @drunkplato 
 * add enhancement #596 hash details by @Tenari 
 * Windows build fixes by @lodlev-migdev 
