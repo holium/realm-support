@@ -139,14 +139,23 @@ https://user-images.githubusercontent.com/29574724/215357806-6b5cae54-31f0-4533-
 * Move Storybook to root by @gdbroman
 * Tag based build fix by @lodlev-migdev 
 * Rm `--rlm-text-color` from global style by @gdbroman 
- * Before | After
---- | ---
-![BTN_BEFORE](https://user-images.githubusercontent.com/29574724/218115849-00b513c9-183c-4fc8-84fd-2dd993023288.jpg) | ![BTN_AFTER](https://user-images.githubusercontent.com/29574724/218115884-a1efb33a-bab8-4521-bf46-6c11fd8efde5.jpg)
-* Style fixes for row and trays by @drunkplato 
+* Style fixes for row and trays by @drunkplato
+ * the Row component wasn't setting its text color so when we removed the global text style, it always was black.
+ * tray app wouldn't grow when +4 people were in a room 
 * add enhancement #596 hash details by @Tenari 
 * Windows build fixes by @lodlev-migdev 
 * 941 contact sharing realm by @leowini 
 * Fix docked app status indicator and more by @gdbroman
+  ### Bug fixes:
+ * Fix bug where docked apps' status indicator (for `isOpen`/`isActive`) isn't consistently working
+ * Fix bug where https://github.com/holium/realm/issues/988 by persisting the order in MobX
+ * Fix bug where Relic browser window doesn't rise to top on focus
+  ### New stuff:
+ * Add a hide/show context menu option
+ * Opening an app should close the home pane
+
+https://user-images.githubusercontent.com/29574724/218250878-ad6d3328-b799-44a0-86d5-3a79e5bef993.mov
+
 * Load mouse in AppUpdater by @gdbroman 
 * Cleaning up Window & Titlebar components by @gdbroman 
 * fixed wallet back button on onboarding and removed verb logs from agent by @drunkplato 
