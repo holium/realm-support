@@ -44,7 +44,7 @@ https://user-images.githubusercontent.com/29574724/213758027-96815df5-e71b-4f36-
 * Fix null space description error by @gdbroman
  * This fixes a bug where the app crashes when you click "Edit" on a space without a description (but only seemed to happen sometimes).
  
- https://user-images.githubusercontent.com/29574724/214273428-aece2b07-dbe7-4cdd-a9b9-9253f35daceb.mov
+ * https://user-images.githubusercontent.com/29574724/214273428-aece2b07-dbe7-4cdd-a9b9-9253f35daceb.mov
  
 * Add PR lint step by @gdbroman
 * Rooms udp fix 3 by @drunkplato
