@@ -13,6 +13,11 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `hotfix v0.5.1` - 02/25/23
+* fixing audiowave animation bug by @drunkplato
+* Linux release channel by @lodlev-migdev
+* Switch to production download channel in settings (needs Select upgrade)  by @lodlev-migdev
+
 ### `v0.5.0` - 02/23/23
 
 * Save the currently opened space in %spaces by @ajlamarc
