@@ -21,16 +21,16 @@ If you have an issue with an app supported by Holium, click below to post detail
 * Fix preconstruct error (type export) by @gdbroman
 * Enforce type-only exports by @gdbroman
 * Make window resizing snappy by @gdbroman
-  * Make all window corners resizable
+    * Make all window corners resizable
  
  https://user-images.githubusercontent.com/29574724/221646771-43a390d3-8963-43fb-98ba-ed6ae1e21db6.mov
  
-  * Keep mouse in resize state when dragging
+    * Keep mouse in resize state when dragging
  
  https://user-images.githubusercontent.com/29574724/221807232-37556280-6483-4e6b-b23d-125d04cbdf3f.mov
  
-  * Disable double click in Relic input field
-  * Use IPC'd mouse coordinates (this makes dragging + resizing work over webviews, and it's snappier)
+    * Disable double click in Relic input field
+    * Use IPC'd mouse coordinates (this makes dragging + resizing work over webviews, and it's snappier)
 * Filtering out groups that are already spaces by @leowini
 * Rooms: make test-ui ShipConfig a gitignored file with example by @gdbroman
 * Fix: can't reference realm-room from inside realm-room by @gdbroman
