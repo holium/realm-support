@@ -13,6 +13,37 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.6.0` - 03/04/23
+
+* fixing audiowave animation bug by @drunkplato
+* Properly disable Next btn on error in InstallAgent dialog by @gdbroman
+* Moving a bunch of components to design system by @gdbroman
+* Fix preconstruct error (type export) by @gdbroman
+* Enforce type-only exports by @gdbroman
+* Make window resizing snappy by @gdbroman
+  * Make all window corners resizable
+ 
+ https://user-images.githubusercontent.com/29574724/221646771-43a390d3-8963-43fb-98ba-ed6ae1e21db6.mov
+ 
+  * Keep mouse in resize state when dragging
+ 
+ https://user-images.githubusercontent.com/29574724/221807232-37556280-6483-4e6b-b23d-125d04cbdf3f.mov
+ 
+  * Disable double click in Relic input field
+  * Use IPC'd mouse coordinates (this makes dragging + resizing work over webviews, and it's snappier)
+* Filtering out groups that are already spaces by @leowini
+* Rooms: make test-ui ShipConfig a gitignored file with example by @gdbroman
+* Fix: can't reference realm-room from inside realm-room by @gdbroman
+* Rename test-ui to test-ui-vite by @gdbroman
+* Unify ships.json name with README by @gdbroman
+* Fix rooms/test-ui ships.json name by @gdbroman
+* Fix undefined ships.json by fetching it from public by @gdbroman
+* Fix default cursor disappearing on misc elements by @gdbroman
+* Stabilize Relic webview handling by @gdbroman
+* Fixed can't kick a dead member bug by @leowini
+* Fix room/test-ui (add back observers) by @gdbroman
+* #1177 don't update current space from /updates subscription by @Tenari
+
 ### `hotfix v0.5.1` - 02/25/23
 * fixing audiowave animation bug by @drunkplato
 * Linux release channel by @lodlev-migdev
