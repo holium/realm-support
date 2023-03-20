@@ -13,6 +13,52 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.7.0` - 03/20/23
+
+- Multiplayer + `lib/presence`
+- space path prevent duplicates
+- rooms signaling limiter
+- initial mic capture is prompted for before entering a room as well as UI feedback
+- translucent bg for apps integrating with Realm's theme system
+* add back space name by @ajlamarc 
+* create a sentry release (with source maps) when running staging build… by @lodlev-migdev
+* Added invite member updates for %groups sync by @leowini
+* Remove all non-null assertions by @gdbroman 
+* Rooms signal fix by @leowini 
+* Fixed initial update in DiskStore by @leowini
+* Ask for mic permissions when first opening tray app by @gdbroman
+  * Mic tooltip in RoomsDock
+
+https://user-images.githubusercontent.com/29574724/224502712-8a818e75-93e3-4f7d-adb7-596aec34d6d6.mov
+
+![Screenshot 2023-03-11 at 11 08 56](https://user-images.githubusercontent.com/29574724/224502084-6390d170-b428-4460-8dc5-46b11e3f5b52.jpg)
+
+* 995 device ipc sleep wake by @Tenari
+* Rm logs in main by @gdbroman
+* Added code signing using EV code signing certificate for staging build by @lodlev-migdev 
+* EV code signing enabled for Windows build by @lodlev-migdev
+* Do not build when do-not-build label is set on a PR by @lodlev-migdev
+* Rename multiplayer to presence by @gdbroman 
+* build Sentry pipeline with debug enabled by @lodlev-migdev 
+* Nuke rooms state by @leowini
+* fix #1215 by @Tenari
+* Multiplayer + `lib/presence` by @gdbroman
+
+https://user-images.githubusercontent.com/29574724/225707389-64d7fc24-feac-4ea9-a791-b6caf79cb393.mp4
+
+  * Togglable "multiplayer" cursor streaming in Realm rooms (disabled by default).
+    * With ephemeral chat invokable from anywhere (disappears after 5s).
+  * A lightweight developer module, @holium/realm-presence.
+    * Demo implementation in lib/presence/code.
+
+* To understand how the presence lib works, see `lib/presence/README.md`._
+
+* Presence git ignore by @gdbroman
+* #1036 make spaces paths communicated in a url-safe manner by @Tenari
+* style fix by @drunkplato
+* Remove AppWindow BG by @drunkplato
+  * removes the default theme window color as the bg so we can have apps layer on the transparent window
+
 ### `v0.6.0` - 03/04/23
 
 * fixing audiowave animation bug by @drunkplato
