@@ -58,6 +58,7 @@ https://user-images.githubusercontent.com/29574724/224502712-8a818e75-93e3-4f7d-
 * Remove AppWindow BG by @drunkplato
   * removes the default theme window color as the bg so we can have apps layer on the transparent window
 
+
 ### `v0.6.0` - 03/04/23
 
 * fixing audiowave animation bug by @drunkplato
