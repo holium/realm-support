@@ -15,17 +15,17 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ### `v0.7.0` - 03/20/23
 
-- Multiplayer + `lib/presence`
+* Multiplayer + `lib/presence` by @gdbroman
+
+https://user-images.githubusercontent.com/29574724/225707389-64d7fc24-feac-4ea9-a791-b6caf79cb393.mp4
+
+  * Togglable "multiplayer" cursor streaming in Realm rooms (disabled by default).
+    * With ephemeral chat invokable from anywhere (disappears after 5s).
+  * A lightweight developer module, @holium/realm-presence.
+    * Demo implementation in lib/presence/code.
+
 - space path prevent duplicates
 - rooms signaling limiter
-- initial mic capture is prompted for before entering a room as well as UI feedback
-- translucent bg for apps integrating with Realm's theme system
-* add back space name by @ajlamarc 
-* create a sentry release (with source maps) when running staging build… by @lodlev-migdev
-* Added invite member updates for %groups sync by @leowini
-* Remove all non-null assertions by @gdbroman 
-* Rooms signal fix by @leowini 
-* Fixed initial update in DiskStore by @leowini
 * Ask for mic permissions when first opening tray app by @gdbroman
   * Mic tooltip in RoomsDock
 
@@ -33,6 +33,13 @@ https://user-images.githubusercontent.com/29574724/224502712-8a818e75-93e3-4f7d-
 
 ![Screenshot 2023-03-11 at 11 08 56](https://user-images.githubusercontent.com/29574724/224502084-6390d170-b428-4460-8dc5-46b11e3f5b52.jpg)
 
+- translucent bg for apps integrating with Realm's theme system
+* add back space name by @ajlamarc 
+* create a sentry release (with source maps) when running staging build… by @lodlev-migdev
+* Added invite member updates for %groups sync by @leowini
+* Remove all non-null assertions by @gdbroman 
+* Rooms signal fix by @leowini 
+* Fixed initial update in DiskStore by @leowini
 * 995 device ipc sleep wake by @Tenari
 * Rm logs in main by @gdbroman
 * Added code signing using EV code signing certificate for staging build by @lodlev-migdev 
@@ -42,14 +49,6 @@ https://user-images.githubusercontent.com/29574724/224502712-8a818e75-93e3-4f7d-
 * build Sentry pipeline with debug enabled by @lodlev-migdev 
 * Nuke rooms state by @leowini
 * fix #1215 by @Tenari
-* Multiplayer + `lib/presence` by @gdbroman
-
-https://user-images.githubusercontent.com/29574724/225707389-64d7fc24-feac-4ea9-a791-b6caf79cb393.mp4
-
-  * Togglable "multiplayer" cursor streaming in Realm rooms (disabled by default).
-    * With ephemeral chat invokable from anywhere (disappears after 5s).
-  * A lightweight developer module, @holium/realm-presence.
-    * Demo implementation in lib/presence/code.
 
 * To understand how the presence lib works, see `lib/presence/README.md`._
 
