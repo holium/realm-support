@@ -13,6 +13,21 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.8.0` - 03/27/23
+
+* Public facing README for @holium/design-system by @gdbroman
+Before | After
+--- | ---
+![CleanShot 2023-03-20 at 11 02 30@2x](https://user-images.githubusercontent.com/29574724/226398916-632c299e-24b8-49e6-828e-43f8f9e879b4.png) | ![CleanShot 2023-03-20 at 11 07 47@2x](https://user-images.githubusercontent.com/29574724/226400228-b5f820cc-3b87-46a0-a865-61e74ee5c9fd.png)
+
+* Add contact info to our NPM libs by @gdbroman in https://github.com/holium/realm/pull/1262
+* Init `@holium/shared` by @gdbroman in https://github.com/holium/realm/pull/1259
+* change glob and version by @ajlamarc in https://github.com/holium/realm/pull/1237
+* Rooms present count quick fix by @leowini in https://github.com/holium/realm/pull/1210
+* Remove `getComputedStyle` from `@holium/design-system` by @gdbroman in https://github.com/holium/realm/pull/1269
+* Don't remove blur when home pane is open by @ajlamarc in https://github.com/holium/realm/pull/1280
+* release-v0.8.0 by @drunkplato in https://github.com/holium/realm/pull/1283
+
 ### `v0.7.0` - 03/20/23
 
 * Multiplayer + `lib/presence` by @gdbroman
