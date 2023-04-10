@@ -13,6 +13,108 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.9.0` - 04/10/23
+
+- New chat and notification system is in
+- Lots of bug fixes
+* Realm chat by @Tenari
+* Realm chat UI by @gdbroman
+* #1034 %notif-db hoon agent by @Tenari
+* Toggle component for settings by @drunkplato
+* Integrate pin/unpin api by @drunkplato
+* delete log fetches, applies, and inserts by @drunkplato
+* New frag parser by @Tenari
+* replies, editing, and reactions by @drunkplato
+* Reply edit reactions by @drunkplato
+* Blocks and media polish by @drunkplato
+* Image upload and delete logs by @drunkplato
+* Notif sql hookup by @drunkplato
+* Status content type and timestamp by @Tenari
+* attempting to fix style by @drunkplato
+* Last message bug by @leowini
+* del-log in notif-db by @Tenari
+* Feature: New chat system by @drunkplato
+* Show theme on lock screen by @ajlamarc
+ * update lock screen theme on save from settings
+ * update lock screen theme on each login
+ * proper lock screen shows on boot and animates when changing between selected ships
+
+https://user-images.githubusercontent.com/56094073/227800649-4796898e-c5b6-4524-a527-214ef08c7b74.mp4
+
+* fix typo by @ajlamarc
+* chat crash on re-open fix by @drunkplato
+* uncommented something that may have broken build by @drunkplato
+* prevent errors when/if needing to rerun a build and no new commits fo… by @lodlev-migdev
+* Fix urbit-ob `.d.ts` declaration by @gdbroman
+* make s3 handle people who configured the endpoint with ... by @Tenari
+* enable close button by @ajlamarc
+* Basic shutdown by @ajlamarc
+ * Clicking power button closes the app
+ * Clicking power button opens a modal that says "Realm will power off automatically in 60 seconds".  User can cancel, power off, or wait.
+* Chat performance improvements by @drunkplato
+* add gap between buttons by @ajlamarc
+* only do one notif per message, and combine all the msg-parts to creat… by @Tenari
+* reactions and emoji picker are more efficient and works by @drunkplato
+ - Fixes the emoji picker closing when trying to search. 
+ - memoized the reaction row which was causing a re-render on every click
+* Add as friend adds to Friends by @leowini
+* fixed reaction measurement and setting window.ship by @drunkplato
+* Chat log scroll fix by @drunkplato
+* committed in design-system folder... by @drunkplato
+* Fix tsc errors to unstuck CI by @gdbroman
+* Fix remaining --rlm-rgba variables by @gdbroman
+* Clean up design system imports by @gdbroman
+* editing fixes by @drunkplato
+* #1298 Update the sentAt time via an interval similar to the clock by @Tenari
+* Login error cleanup by @ajlamarc in https://github.com/holium/realm/pull/1287
+* #1298 only match at beginning of input or after newline by @Tenari
+* use same id on all the main elements of the Bubble for contextMenu purposes by @Tenari
+* New Holium onboarding by @gdbroman
+* #1298 fix delete group chat ui crash, re-do the growing chat input by @Tenari
+* Opengraph pretty again by @Tenari
+* Holium eventsource by @gdbroman
+* Revert "Holium eventsource" by @drunkplato
+* Fix smooth scrolling + add scroll on reply click by @gdbroman
+
+https://user-images.githubusercontent.com/29574724/229910793-f74e4cde-58e9-4999-810a-d56ad5739346.mp4
+
+* Fix: Relic browser greys out on search by @gdbroman 
+* #1298 %status should be sent when the expiresDuration is changed by @Tenari
+* #1298 clicking on an image shows it in a lightbox by @Tenari
+* Fix electron-rebuild by @gdbroman
+* Fix photoswipe global css  problem by @gdbroman
+* #1298 shrink chat input after send, enable right click save image by @Tenari
+* Always show scrollbar padding in WindowedList by @gdbroman
+* Fixed rooms crash - prevents two rooms with same name by @leowini
+* photoswipe.css by @gdbroman
+* fix lightbox interaction with context menu by @Tenari
+* Fix home panel icon colors by @gdbroman 
+ * Clicking on members icon closes it now
+ 
+ ![CleanShot 2023-04-07 at 23 00 06](https://user-images.githubusercontent.com/29574724/230678358-4759214d-4e7f-420e-96a9-acd1df161c93.gif)
+ 
+* Local ErrorBoundries for Windows + TrayApps by @gdbroman
+* Inject both hex and rgba color values by @gdbroman
+* Spaces get their own realm chat by @Tenari
+* Pass down selectedChatPath, cache chats, textarea not required by @ajlamarc
+* Keep scrolled to bottom on image send by @gdbroman
+* Fix multiplayer issues by @gdbroman
+ * Fix ephemeral chat unintentially triggered in inputs
+ * Fix chat triggered by backslash
+ * Fix "ghost cursors"
+  * This was already handled by listening to the LeftRoom event (see [here]
+
+(https://user-images.githubusercontent.com/29574724/230605987-34f15aaa-f6cd-46f2-b241-abfe958b9679.mp4)
+
+* Final Chat TODO by @drunkplato
+ * path flag for whether newly joined members get the chat history
+
+<img width="401" alt="image" src="https://user-images.githubusercontent.com/6413077/220614082-2f29c900-6cd1-442c-9a56-567297d9a412.png">
+
+* fix: special app 'done' handling ignored when running auto updates by @lodlev-migdev
+* Fix chatlog load at bottom & cleanup by @drunkplato
+* fixed several details by @drunkplato
+
 ### `v0.8.0` - 03/27/23
 
 * Public facing README for @holium/design-system by @gdbroman
