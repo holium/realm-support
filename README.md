@@ -15,8 +15,8 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ### `v0.9.0` - 04/10/23
 
-- New chat and notification system is in
-- Lots of bug fixes
+* New chat and notification system is in
+* Lots of bug fixes
 * Realm chat by @Tenari
 * Realm chat UI by @gdbroman
 * #1034 %notif-db hoon agent by @Tenari
@@ -55,8 +55,8 @@ https://user-images.githubusercontent.com/56094073/227800649-4796898e-c5b6-4524-
 * add gap between buttons by @ajlamarc
 * only do one notif per message, and combine all the msg-parts to creat… by @Tenari
 * reactions and emoji picker are more efficient and works by @drunkplato
- - Fixes the emoji picker closing when trying to search. 
- - memoized the reaction row which was causing a re-render on every click
+ * Fixes the emoji picker closing when trying to search. 
+ * memoized the reaction row which was causing a re-render on every click
 * Add as friend adds to Friends by @leowini
 * fixed reaction measurement and setting window.ship by @drunkplato
 * Chat log scroll fix by @drunkplato
@@ -104,7 +104,7 @@ https://user-images.githubusercontent.com/29574724/229910793-f74e4cde-58e9-4999-
  * Fix "ghost cursors"
   * This was already handled by listening to the LeftRoom event (see [here]
 
-(https://user-images.githubusercontent.com/29574724/230605987-34f15aaa-f6cd-46f2-b241-abfe958b9679.mp4)
+https://user-images.githubusercontent.com/29574724/230605987-34f15aaa-f6cd-46f2-b241-abfe958b9679.mp4
 
 * Final Chat TODO by @drunkplato
  * path flag for whether newly joined members get the chat history
