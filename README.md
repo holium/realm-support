@@ -102,7 +102,7 @@ https://user-images.githubusercontent.com/29574724/229910793-f74e4cde-58e9-4999-
  * Fix ephemeral chat unintentially triggered in inputs
  * Fix chat triggered by backslash
  * Fix "ghost cursors"
-  * This was already handled by listening to the LeftRoom event (see [here]
+  * This was already handled by listening to the LeftRoom event
 
 https://user-images.githubusercontent.com/29574724/230605987-34f15aaa-f6cd-46f2-b241-abfe958b9679.mp4
 
