@@ -13,6 +13,16 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.9.1-hotfix` - 04/13/23
+
+* Granular `@holium/design-system` exports for tree-shaking by @gdbroman
+* Rm not yet added dialog by @gdbroman
+* Update %realm desk.ship to ~hostyv instead of ~zod by @bacwyls
+* Symlink base-dev by @ajlamarc
+* #1372 lastMessage preview in inbox looks better by @Tenari
+* #1372 fix the reply message missing crashes chat problem, and upgrade… by @Tenari
+* #1372 copy options based on message contents by @Tenari
+
 ### `v0.9.0` - 04/10/23
 
 * New chat and notification system is in
