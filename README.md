@@ -13,6 +13,27 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.9.2-hotfix` - 04/17/23
+
+* #1374 make media type regexes case insensitive for weird systems that… by @Tenari
+* #1372 both members of realm-chat %dm type can edit path info by @Tenari
+* Clear ephemeral chat after toggle off by @gdbroman 
+
+https://user-images.githubusercontent.com/29574724/232096144-3efeef62-ff02-4496-b8e3-138c0b2bb039.mp4
+
+* Remove %courier subscription status in Settings by @gdbroman
+
+Before | After
+--- | ---
+![CleanShot 2023-04-14 at 18 33 38@2x](https://user-images.githubusercontent.com/29574724/232104242-43e986ad-b845-4b93-b822-947bf421aef5.png) | ![CleanShot 2023-04-14 at 18 34 56@2x](https://user-images.githubusercontent.com/29574724/232104255-60cc594d-3eb9-4ef8-83a0-27551022969e.png)
+
+* Enable dragging & resizing of Realm in windowed mode by @gdbroman
+
+https://user-images.githubusercontent.com/29574724/232107605-d2913d5f-37d7-47f2-af6d-031b29c13ea3.mp4
+
+* Consolidate home pane by @ajlamarc
+* #1366 jump to index when clicking notifrow for chat, and also dismiss by @drunkplato
+
 ### `0.9.1-hotfix` - 04/13/23
 
 * Granular `@holium/design-system` exports for tree-shaking by @gdbroman
