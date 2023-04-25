@@ -13,6 +13,10 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.9.4-hotfix` - 04/24/23
+
+* Revert "#1372 emoji picker in chatInput, using %custom content type to send a…" by @drunkplato
+
 ### `0.9.2-hotfix` - 04/17/23
 
 * #1374 make media type regexes case insensitive for weird systems that… by @Tenari
