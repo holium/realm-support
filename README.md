@@ -15,10 +15,10 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ### `0.10.1-hotfix` - 05/03/23
 
-* Spaces permission and initial stall fixes by @drunkplato in https://github.com/holium/realm/pull/1543
-* Bubble width adjustment by @drunkplato in https://github.com/holium/realm/pull/1545
-* Passport and installation fixes by @drunkplato in https://github.com/holium/realm/pull/1544
-* Remove "Already have an account?" from claim flow by @gdbroman in https://github.com/holium/realm/pull/1547
+* Spaces permission and initial stall fixes by @drunkplato
+* Bubble width adjustment by @drunkplato
+* Passport and installation fixes by @drunkplato 
+* Remove "Already have an account?" from claim flow by @gdbroman
 
 ### `v0.10.0` - 05/02/23
 
