@@ -13,6 +13,139 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.10.0` - 05/02/23
+
+* Granular `@holium/design-system` exports for tree-shaking by @gdbroman
+* Rm not yet added dialog by @gdbroman
+* Update %realm desk.ship to ~hostyv instead of ~zod by @bacwyls
+* Symlink base-dev by @ajlamarc
+* #1372 lastMessage preview in inbox looks better by @Tenari
+* #1372 fix the reply message missing crashes chat problem, and upgrade… by @Tenari
+* #1372 copy options based on message contents by @Tenari
+* fixes artifact naming for windows builds by @lodlev-migdev
+* Rm package-lock and update yarn.lock by @gdbroman
+* Docs updates by @ajlamarc
+* bazaar and spaces in rebuild by @drunkplato
+* add step to init submodule first by @ajlamarc
+* add urbit submodule by @ajlamarc
+* New claim flow (Onboarding) by @gdbroman
+# Claim invite code page
+
+![CleanShot 2023-04-05 at 17 17 40@2x](https://user-images.githubusercontent.com/29574724/230126298-ccab2f58-1731-4a16-ab69-981fe7e4056e.png)
+
+# Download Realm page (when no ships)
+
+The "Get Hosting" menu item takes you to the "Choose ID" part of the onboarding flow.
+
+![CleanShot 2023-04-05 at 17 18 05@2x](https://user-images.githubusercontent.com/29574724/230126401-1b3916e3-b6c8-4f7f-86a1-eb1eecd8649b.png)
+
+* Onboarding cleanups by @gdbroman
+ * Fix font-family being unset for some components
+ * HoliumButton should redirect back to holium.com
+ * Remove onBack from CredentialsDialog
+ * Fix flickering of account dialogs
+
+https://user-images.githubusercontent.com/29574724/232246903-89287b10-3150-48b4-b3b4-8cda7f85f011.mp4
+
+* Rebuilt os process bazaar by @drunkplato
+* #1374 make media type regexes case insensitive for weird systems that… by @Tenari
+* #1372 both members of realm-chat %dm type can edit path info by @Tenari
+* Clear ephemeral chat after toggle off by @gdbroman
+
+https://user-images.githubusercontent.com/29574724/232096144-3efeef62-ff02-4496-b8e3-138c0b2bb039.mp4
+
+* Remove %courier subscription status in Settings by @gdbroman
+
+Before | After
+--- | ---
+![CleanShot 2023-04-14 at 18 33 38@2x](https://user-images.githubusercontent.com/29574724/232104242-43e986ad-b845-4b93-b822-947bf421aef5.png) | ![CleanShot 2023-04-14 at 18 34 56@2x](https://user-images.githubusercontent.com/29574724/232104255-60cc594d-3eb9-4ef8-83a0-27551022969e.png)
+
+* Enable dragging & resizing of Realm in windowed mode by @gdbroman
+
+https://user-images.githubusercontent.com/29574724/232107605-d2913d5f-37d7-47f2-af6d-031b29c13ea3.mp4
+
+* Consolidate home pane by @ajlamarc
+ * Compress comet names as well as moons in friends list: 
+ 
+ ![image](https://user-images.githubusercontent.com/56094073/232256746-26df3c73-ba7c-4595-bd34-816d47097ea7.png)
+
+* Rebuilt os process final pass by @drunkplato
+* comparing changes by @drunkplato
+* Add missing Download links for claim flow by @gdbroman
+* #1366 jump to index when clicking notifrow for chat, and also dismiss by @Tenari
+* #1366 jump to index when clicking notifrow for chat, and also dismiss by @drunkplato
+* splash screen is integrated with style updates by @drunkplato
+* move conduit to os/services/api by @ajlamarc
+* new convenience scry for getting all updates since a timestamp for each table by @Tenari
+* #1372 reply fragments will show the preview version of all fragments,… by @Tenari
+* Rebuilt os process tests refactor by @ajlamarc
+* dns resolution for ipv6 on macOS and node >= 18 seems to be broken; prefer ipv4 by @Tenari
+* New Realm onboarding by @gdbroman
+* #1372 reorder chat inbox when new messages come in, and when you go b… by @Tenari
+* #1372 deleting a chat also sends pokes to delete notifs in notif-db by @Tenari
+* #1459 client and hoon side update to change json interface for chat-db by @Tenari
+* Resubscribe on channel when quit event received by @leowini
+* #1444 fix editing convertFragmentsToText function by @Tenari
+* Bazaar fixes by @lodlev-migdev
+* #1372 emoji picker in chatInput, using %custom content type to send a… by @Tenari
+* #1372 properly grow row heigh when reactions come in by @Tenari
+* #1372 allow soundcloud to play by @Tenari
+* Revert "#1372 emoji picker in chatInput, using %custom content type to send a…" by @drunkplato
+* Onboarding hangs, cookie not set issues by @leowini
+ * Fixed an async bug where the conduit is initialized before receiving the cookie.
+ * Fixed a crash from a bad set-contact poke
+ * Fixed a hang caused by a missing parameter in the createAccount call
+
+* Web onboarding fixes by @gdbroman
+* Favicon for hosting.holium.com by @gdbroman
+* Redirect to `/account/download-realm` on login if no ships by @gdbroman
+* Apply filter to onboarding bg by @gdbroman 
+* Rebuilt os process by @drunkplato
+* Fix inputs not using --rlm-font by @gdbroman
+* Fix ESLint errors from `rebuilt-os-process` by @leowini
+* Rebuild os process sort imports by @ajlamarc
+* Small chat fixes by @drunkplato
+* miscellaneous fixes by @Tenari
+* Onboarding adjustments by @gdbroman
+* Fix introduced CI errors by @gdbroman
+* More onboarding and style cleanups by @gdbroman
+* Fix import sort for @holium packages by @gdbroman
+* #1481 when a user adds a ship, it should update the Authstore by @Tenari
+* add USE_HARD_LINKS=false for build to get beyond symlink issues when … by @lodlev-migdev
+* bazaar fixes for Friday by @lodlev-migdev
+ * pinned, unpinned, and reorder fixes
+ * modified sqlite schema by removing dockIndex and simply storing json array in correct order (if you think we need dockIndex for whatever reason (future   proof), let me know and I can add it back. after table refactor, it was no longer required
+ * modified bazaar (agent/hoon) to %give %dock-update gifts as updates when the dock changes due to a pin/unpin or reorder action
+
+* Rebuilding wallet for the os refactor by @leowini
+* various rebuild todo fixes by @Tenari
+* wait for Realm installation by @lodlev-migdev
+* BUILD_VERSION set in main process environment by @lodlev-migdev
+* Realm install fix by @lodlev-migdev
+* Fix RealmInstallStatus imports by @gdbroman
+* Settings & Account Management by @gdbroman 
+* Fix onboard build error & power off btn styling by @gdbroman 
+* Populate passport card in settings with %friends data by @gdbroman 
+* Rebuilt rooms 2023 by @drunkplato
+* Fix ESLint rooms errors by @gdbroman 
+* Apply local fonts by @gdbroman 
+* Rooms voice connection fixed by @drunkplato
+* when a user opens a chat, hit the scry for the timestamp of the last … by @Tenari
+* setting session cookie on login by @drunkplato
+* Fix wallpaper settings by @gdbroman
+* added basic amplitude tracking by @drunkplato 
+* Simple account settings for self-hosted ships by @gdbroman 
+* More granular settings tabs by @gdbroman
+* inline edit style fix and moved chatdb sub to after scries by @drunkplato 
+* Last-minute onboarding improvements by @gdbroman 
+* Disable onBack when installing agent by @gdbroman
+* Inital load fixes by @drunkplato 
+* Fix forcedNextStep logic by @gdbroman 
+* Remove unused password step by @gdbroman 
+* Rm logs (to trigger prerelease) by @gdbroman 
+* fixed create bug by @drunkplato 
+* remove 'courier' agent from production build deployment by @lodlev-migdev 
+
 ### `0.9.5-hotfix` - 04/25/23
 
 ### `0.9.4-hotfix` - 04/24/23
