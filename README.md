@@ -13,6 +13,22 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.10.3-hotfix` - 05/04/23
+
+* Use Node's inbuilt fetch instead of cross-fetch by @gdbroman
+
+### `0.10.2-hotfix` - 05/03/23
+
+* Sentry for hosting by @gdbroman 
+* Add missing sentry.edge.config.ts by @gdbroman 
+* fix emails parsing as link in chat ui fragment-parser by @Tenari 
+* Add timeout to onboarding network requests by @gdbroman
+* handle decentralized occasional slow delivery by using received_at as… by @Tenari
+* Refactor schemas and column names to be based on constants by @drunkplato 
+* #1396 better push notif msg by @Tenari 
+* Fix onboarding unrecoverable state bc of persisted step by @gdbroman
+* handle case where agent doesn't do received-at yet gracefully by @Tenari
+
 ### `0.10.1-hotfix` - 05/03/23
 
 * Spaces permission and initial stall fixes by @drunkplato
