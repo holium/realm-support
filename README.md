@@ -13,6 +13,14 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.10.4-hotfix` - 05/04/23
+
+* #1549 fix pinning/unpinning chats in Inbox by @Tenari
+* fixes #1476 by @Tenari
+* pass bowl so we arent defaulting to ~zod nil 0 by @Tenari
+* removed serverCode from auth.db by @drunkplato
+* Get Realm page by @gdbroman
+
 ### `0.10.3-hotfix` - 05/04/23
 
 * Use Node's inbuilt fetch instead of cross-fetch by @gdbroman
