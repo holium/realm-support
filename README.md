@@ -13,6 +13,36 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.10.6-hotfix` - 05/05/23
+
+* Fix framer-motion animation by reverting version by @gdbroman
+
+### `0.10.5-hotfix` - 05/05/23
+
+* Remove residual server codes from createAccount by @gdbroman
+* Buy Server btn by @gdbroman
+
+https://user-images.githubusercontent.com/29574724/236482694-7690e5ef-96e2-42e5-8a76-1bf606849b69.mp4
+
+* Showpassword for login & create account by @gdbroman 
+
+# Web
+
+https://user-images.githubusercontent.com/29574724/236497891-486e84cb-9d40-451d-8357-b0c44c8c4027.mp4
+
+# Desktop
+
+https://user-images.githubusercontent.com/29574724/236498290-f7d0976e-4218-41ab-925f-a378b5864450.mp4
+
+* bowl passing again by @Tenari 
+* fix command by @ajlamarc 
+* Init holium com dir by @gdbroman
+* Move holium.com into monorepo by @gdbroman 
+* Test JIRA automation by @ajlamarc
+* Update issue templates by @ajlamarc
+* Bump http-cache-semantics from 4.1.0 to 4.1.1 by @dependabot 
+* update year by @ajlamarc 
+
 ### `0.10.4-hotfix` - 05/04/23
 
 * #1549 fix pinning/unpinning chats in Inbox by @Tenari
