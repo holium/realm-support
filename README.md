@@ -13,6 +13,23 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.10.8-hotfix` - 05/09/23
+
+* Re 47 rooms node server by @drunkplato
+
+### `0.10.7-hotfix` - 05/09/23
+
+* New holium.com by @gdbroman
+* 413 updates by @ajlamarc
+* fix spaces permissions by @Tenari
+* Custom titlebar by @gdbroman 
+* Move installation step before passport by @gdbroman 
+
+https://user-images.githubusercontent.com/29574724/236953024-65a0c102-7771-4392-ac5c-348d8891498b.mp4
+
+* When joining a space, the stall data doesn't get refresh in UI until logout/login by @drunkplato 
+* Photoswipe fix by @gdbroman
+
 ### `0.10.6-hotfix` - 05/05/23
 
 * Fix framer-motion animation by reverting version by @gdbroman
