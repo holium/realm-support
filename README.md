@@ -13,6 +13,16 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.10.9-hotfix` - 05/10/23
+
+* bazaar treaty case data type fix by @lodlev-migdev
+* fix RE-107: exclude %invited people from memberCount by @Tenari 
+* make AppTile open/unfocused bubbles appear -> fix RE-27 by @Tenari 
+* fix RE-92: use smarter/better isAdmin() call by @Tenari
+* fix RE-54: don't use index as part of react-key, since we only allow … by @Tenari
+* update commit by @ajlamarc
+* Remove old lib files by @ajlamarc
+
 ### `0.10.8-hotfix` - 05/09/23
 
 * Re 47 rooms node server by @drunkplato
