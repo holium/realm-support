@@ -13,6 +13,13 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.10.11-hotfix` - 05/12/23
+
+* Add metadata to hosting.holium.com by @gdbroman 
+* Unique index bookmarks_path_url by @gdbroman 
+* Cookie partition and dock sql join fix by @drunkplato 
+* remove scry on init by @ajlamarc 
+
 ### `0.10.10-hotfix` - 05/12/23
 
 * Theming changes by @ajlamarc 
