@@ -13,6 +13,40 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.10.10-hotfix` - 05/12/23
+
+* Theming changes by @ajlamarc 
+
+
+![Screenshot from 2023-05-10 20-20-13](https://github.com/holium/realm/assets/56094073/a807d0fe-a67b-44e2-b700-fdfae32c2860)
+![Screenshot from 2023-05-10 20-20-30](https://github.com/holium/realm/assets/56094073/e6bd87ed-b9dd-4d19-8f60-06950957f73d)
+
+
+* Fix wallpaper loading for holium.com by @gdbroman 
+* Only preload wallpapers on demand by @gdbroman
+* Static landingpage for mobile by @gdbroman 
+* fix RE-112: show user-friendly error message in chat when deleting a … by @Tenari
+
+<img width="442" alt="image" src="https://github.com/holium/realm/assets/3653835/19206b21-4631-4a98-947f-2f3a17a94931">
+
+* fix RE-89: close modal when photo is set, dont show two photos at once by @Tenari 
+* App install updates volatile state by @drunkplato 
+* add symlink to json.hoon from urbit/base-dev by @lodlev-migdev 
+* ensure PR has build label else do not run build steps by @lodlev-migdev 
+* prevent duplicate/multiple clicks on all auto update forms by @lodlev-migdev 
+* fix windows build by @lodlev-migdev 
+ * Ensure Windows signed .EXE is moved to droplet then ultimately to Github Release.
+* fix by @ajlamarc 
+* Update website theme when switching space by @gdbroman 
+
+https://github.com/holium/realm/assets/29574724/6a6b7622-0c3d-412e-aeb9-156136ee866e
+
+* Update ghproxy download links by @gdbroman 
+* rename all ghproxy.holium.xyz references to download.holium.com by @lodlev-migdev
+* Local progressive web app support by @gdbroman
+
+https://github.com/holium/realm/assets/29574724/8cb825cc-2f65-406c-af80-9340784aff5a
+
 ### `0.10.9-hotfix` - 05/10/23
 
 * bazaar treaty case data type fix by @lodlev-migdev
