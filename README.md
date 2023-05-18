@@ -13,6 +13,40 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.10.12-hotfix` - 05/17/23
+
+New landing page flow w email input by @gdbroman
+* Fix get-realm on mobile by @gdbroman
+
+### Success case
+
+https://github.com/holium/realm/assets/29574724/69914397-d07a-4f3e-b37e-4651ec0efe35
+
+### Error case
+
+https://github.com/holium/realm/assets/29574724/d9b7f51d-8398-491c-b06e-6960040d1b78
+
+### Faulty email case
+
+https://github.com/holium/realm/assets/29574724/5197a694-cfcb-4162-9cf6-55728911109d
+
+* Keep window in bounds by @ajlamarc 
+ * Fixes windows going off screen for both resizing and dragging.
+https://github.com/holium/realm/assets/56094073/5659f511-f589-4a5a-884e-82b8a9cba02e
+
+* Preload all space pictures by @gdbroman 
+* Dedupe wallet types by @gdbroman 
+* Reorganize wallet components by @gdbroman 
+* Update opengraph images for holium.com & hosting.holium.com by @gdbroman 
+* generate new checksum based on signed windows .EXE. also rewrite late… by @lodlev-migdev 
+* change deploy-desks step to use 'recursive' submodule strategy instead… by @lodlev-migdev 
+* Fix only the last bookmark is rendered after logout/in by @gdbroman
+* space theme property crash fix. also minor fix where Update Space but… by @lodlev-migdev
+* created safeFetch method that will automatically attempt to get a new… by @lodlev-migdev 
+* CI_ENV environment variable not set by @lodlev-migdev 
+* Fix build windows step by @lodlev-migdev 
+* bump to build again by @lodlev-migdev 
+
 ### `0.10.11-hotfix` - 05/12/23
 
 * Add metadata to hosting.holium.com by @gdbroman 
