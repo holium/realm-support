@@ -13,6 +13,15 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.10.13-hotfix` - 05/17/23
+
+* set to 8px by @ajlamarc 
+* Fix maintenance window 0 causing infinite spinner by @gdbroman 
+* conduit triggering login sound by @drunkplato 
+* Add "Hide" & "Close" context menu options to web apps by @gdbroman 
+
+https://github.com/holium/realm/assets/29574724/5908e9ee-f365-4bb4-8a95-240bed4d7170
+
 ### `0.10.12-hotfix` - 05/17/23
 
 New landing page flow w email input by @gdbroman
