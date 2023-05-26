@@ -13,6 +13,21 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.11.0` - 05/23/23
+
+* Ghost pane support by @ajlamarc
+* Use base for URL by @ajlamarc
+* Wallet cleanup by @gdbroman
+
+https://github.com/holium/realm-support/assets/102810142/fae72498-e32a-4766-ba78-35e34f613323
+
+* RE-145 fixes amongst other fixes by @lodlev-migdev 
+* added dotenv dependency to ensure .env file is read and sets environm… by @lodlev-migdev 
+
+### `0.10.14-hotfix` - 05/19/23
+
+* added logic to get and set a new cookie every login by @drunkplato
+
 ### `0.10.13-hotfix` - 05/17/23
 
 * set to 8px by @ajlamarc 
