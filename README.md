@@ -39,9 +39,9 @@ Before | After
 * DRY up form validation w Formik by @gdbroman 
 * Add margin if not fullscreen to friends pane by @ajlamarc
 
-Before: ![Screenshot 2023-05-26 at 8 35 43 AM](https://github.com/holium/realm/assets/56094073/564e07be-80e1-498b-9ae0-c7e729baaa41)
-After: 
-![Screenshot 2023-05-26 at 8 47 16 AM](https://github.com/holium/realm/assets/56094073/71c2f28f-1f85-4b70-b738-2ff8a36aa841)
+Before | After
+--- | ---  
+![Screenshot 2023-05-26 at 8 35 43 AM](https://github.com/holium/realm/assets/56094073/564e07be-80e1-498b-9ae0-c7e729baaa41)  | ![Screenshot 2023-05-26 at 8 47 16 AM](https://github.com/holium/realm/assets/56094073/71c2f28f-1f85-4b70-b738-2ff8a36aa841)
 
 * Space invite landing page & API - v1 by @gdbroman 
 
