@@ -13,6 +13,42 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.11.1-release` - 05/26/23
+
+* Titlebar color == dock color by @ajlamarc
+
+https://github.com/holium/realm-support/assets/102810142/311c794d-b062-4b40-9152-71c66266aee7
+
+* Peer dependencies cleanup by @gdbroman
+* Init join.holium.com by @gdbroman
+* Space invites API & landing page by @gdbroman 
+* Contrast tweak for app tiles by @ajlamarc 
+
+Before: 
+![Screenshot 2023-05-25 at 7 13 05 AM](https://github.com/holium/realm/assets/56094073/3432d0f6-4850-48f5-8a6e-f9a15c602080)
+
+After: 
+![Screenshot 2023-05-25 at 7 11 53 AM](https://github.com/holium/realm/assets/56094073/2fadf28d-f1a5-4cad-9317-723e9e0c7ada)
+
+* Bump socket.io-parser from 4.2.2 to 4.2.3 by @dependabot 
+* Fix overflow on error in "Add server" step by @gdbroman 
+
+Before | After
+--- | ---
+![CleanShot 2023-05-24 at 14 10 50](https://github.com/holium/realm/assets/29574724/d4ad44ce-9032-4077-a8ca-9eeddb1db2a8) | ![CleanShot 2023-05-24 at 14 16 58](https://github.com/holium/realm/assets/29574724/d9ebe92d-4870-48a9-ba16-170a98664c8b)
+
+* Consolidate wording of "Add server" to "Add identity" by @gdbroman
+* DRY up form validation w Formik by @gdbroman 
+* Add margin if not fullscreen to friends pane by @ajlamarc
+
+Before: ![Screenshot 2023-05-26 at 8 35 43 AM](https://github.com/holium/realm/assets/56094073/564e07be-80e1-498b-9ae0-c7e729baaa41)
+After: 
+![Screenshot 2023-05-26 at 8 47 16 AM](https://github.com/holium/realm/assets/56094073/71c2f28f-1f85-4b70-b738-2ff8a36aa841)
+
+* Space invite landing page & API - v1 by @gdbroman 
+
+https://github.com/holium/realm-support/assets/102810142/1516ef57-0b11-4d32-9c2b-0c98cf5e0b10
+
 ### `0.11.0` - 05/23/23
 
 * Ghost pane support by @ajlamarc
