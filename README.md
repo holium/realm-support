@@ -24,11 +24,9 @@ https://github.com/holium/realm-support/assets/102810142/311c794d-b062-4b40-9152
 * Space invites API & landing page by @gdbroman 
 * Contrast tweak for app tiles by @ajlamarc 
 
-Before: 
-![Screenshot 2023-05-25 at 7 13 05 AM](https://github.com/holium/realm/assets/56094073/3432d0f6-4850-48f5-8a6e-f9a15c602080)
-
-After: 
-![Screenshot 2023-05-25 at 7 11 53 AM](https://github.com/holium/realm/assets/56094073/2fadf28d-f1a5-4cad-9317-723e9e0c7ada)
+Before | After
+--- | --- 
+![Screenshot 2023-05-25 at 7 13 05 AM](https://github.com/holium/realm/assets/56094073/3432d0f6-4850-48f5-8a6e-f9a15c602080) | ![Screenshot 2023-05-25 at 7 11 53 AM](https://github.com/holium/realm/assets/56094073/2fadf28d-f1a5-4cad-9317-723e9e0c7ada)
 
 * Bump socket.io-parser from 4.2.2 to 4.2.3 by @dependabot 
 * Fix overflow on error in "Add server" step by @gdbroman 
