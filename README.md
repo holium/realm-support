@@ -13,6 +13,21 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.11.2-release` - 05/30/23
+
+* App tile polish fixes by @ajlamarc
+
+https://github.com/holium/realm-support/assets/102810142/34ddc0e6-70cb-4a17-b7ac-4d47e75a51e2
+
+* Drag to sort applications by @ajlamarc 
+
+https://github.com/holium/realm-support/assets/102810142/54daddf1-0912-4f27-a0c0-865a4cd9623f
+
+* Native modal bugfixes by @ajlamarc 
+* have bgislightordark change only apply to the appgrid text by @ajlamarc 
+* remove unused canclick by @ajlamarc 
+* Cookie persist fix by @drunkplato
+
 ### `0.11.1-release` - 05/26/23
 
 * Titlebar color == dock color by @ajlamarc
