@@ -13,7 +13,7 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
-### `0.11.2-release` - 05/30/23
+### `0.11.2-release` - 05/29/23
 
 * App tile polish fixes by @ajlamarc
 
