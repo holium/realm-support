@@ -36,9 +36,6 @@ Space invite not found | Space invite found
 * fix RE-131 by scry-checking the paths in chat-db when realm-chat trie… by @Tenari 
 * make inline-block fragments scroll when they are one very long contig… by @Tenari
 * New company About page on holium.com by @gdbroman 
-
-(https://github.com/holium/realm/assets/29574724/0affbd28-1a09-4822-bca4-8db43f52d94d)
-
 * Fix Realm Android description on about page by @gdbroman
 * Linting updates by @ajlamarc
 * fix not re-enabling scroll when over menu bar by @ajlamarc 
