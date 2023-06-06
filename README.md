@@ -13,6 +13,40 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.11.3-release` - 06/02/23
+
+* Fix: Cursor overlays other windows when Realm is windowed by @gdbroman
+* Upgrade electron peer-deps by @gdbroman 
+* Revert package upgrades by @gdbroman
+* Make notification list scrollable by @gdbroman 
+* Add og metadata to join.holium.com by @gdbroman
+
+Space invite not found | Space invite found
+--- | ---
+![CleanShot 2023-05-31 at 11 55 46@2x](https://github.com/holium/realm/assets/29574724/4a0c4fc6-7f3d-4e7a-b674-f9c71b9127c8) | ![CleanShot 2023-05-31 at 11 54 20@2x](https://github.com/holium/realm/assets/29574724/79b4e465-fc07-4da1-85a4-ba3c2a49be5c)
+
+
+* Rm lock file by @gdbroman 
+* Smaller default dimensions for main window by @gdbroman 
+* Fix scrollbar visible on opening no notifications by @gdbroman
+* fix RE-165 by not adding the peer to local store, wait for the sse ev… by @Tenari 
+* fix RE-179 by using same logic as spaces list by @Tenari
+* fix RE-153 by fixing parsing regex and updating LinkBlock Display to … by @Tenari 
+* fix RE-169 by kicking the peer who nacks a poke instead of just print… by @Tenari 
+* fix RE-131 by scry-checking the paths in chat-db when realm-chat trie… by @Tenari 
+* make inline-block fragments scroll when they are one very long contig… by @Tenari
+* New company About page on holium.com by @gdbroman 
+
+![CleanShot 2023-06-01 at 13 50 25](https://github.com/holium/realm/assets/29574724/0affbd28-1a09-4822-bca4-8db43f52d94d)
+
+* Fix Realm Android description on about page by @gdbroman
+* Linting updates by @ajlamarc
+* fix not re-enabling scroll when over menu bar by @ajlamarc 
+* Fix href apps by @drunkplato 
+* fixed expires at for cookie by @drunkplato
+* Align `useragent` and `partition` across all webviews by @gdbroman 
+* changed some color derivation and styles in chat by @drunkplato 
+
 ### `0.11.2-release` - 05/29/23
 
 * App tile polish fixes by @ajlamarc
