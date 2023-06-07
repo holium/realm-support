@@ -13,6 +13,52 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.12.0-release` - 06/07/23
+
+* Reorder grid index, cache on poke success by @ajlamarc
+* Fix overflowing landing page by @gdbroman
+
+Before | After
+--- | ---
+![CleanShot 2023-06-02 at 10 15 06@2x](https://github.com/holium/realm/assets/29574724/6dc23ffc-8e05-4bfd-8fa7-b4ed94cff54c) | ![CleanShot 2023-06-02 at 10 15 48@2x](https://github.com/holium/realm/assets/29574724/ce123c16-7464-4271-aa81-cbff75dbd172)
+
+* About page cleanups by @gdbroman 
+* Disableable Realm cursor by @gdbroman
+
+https://github.com/holium/realm-support/assets/102810142/ed945667-cd7d-4159-8a24-23a9186c4217
+
+* remove turbo by @ajlamarc 
+* kicking on dbpoke nack was kicking people from chat randomly, removed it by @drunkplato 
+* groups sur update by @drunkplato
+* reverted lib by @drunkplato 
+* don't notify on %react messages unless it is reacting to a message we… by @Tenari 
+* Tray state fixes, settings scroll by @ajlamarc
+ - Scroll overflow is no longer hidden
+ - Drop shadow coincides with other settings tabs
+ - Opening settings or shutdown closes notifications tray
+ - Opening modals like "Create spaces" hides the home pane
+* Drag unmaximize by @ajlamarc 
+
+https://github.com/holium/realm-support/assets/102810142/9e0a831a-13eb-4d46-835b-c789d17e0989
+
+* Fix dialog error, re-enable opening links by @ajlamarc 
+* App grid fixes updates by @ajlamarc 
+* RE-135 parse links with ships in them properly by @Tenari
+* fix RE-226 include unread_count and avatar in data payload by @Tenari
+* add tsc to lint option by @ajlamarc
+* make tsc separate step master commit by @ajlamarc 
+* Lint & Compile by @gdbroman 
+* fix RE-90 by keeping the PATH_FLAGS table in sync with chatStore, and… by @Tenari 
+* Use default menubar by @ajlamarc
+* Dock grayout fixes by @ajlamarc
+* Use an x instead by @ajlamarc
+* Bump vite from 4.3.5 to 4.3.9 by @dependabot 
+* Update lint command by @ajlamarc 
+* Rooms - Holium node by @drunkplato 
+* fix RE-230 by using custom icon in component by @Tenari
+* Better fullscreen mac by @drunkplato
+* Fix realm chat on load by @Tenari
+
 ### `0.11.3-release` - 06/02/23
 
 * Fix: Cursor overlays other windows when Realm is windowed by @gdbroman
