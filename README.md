@@ -13,6 +13,10 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.12.1-release` - 06/08/23
+
+* fixed growing with video and better track management by @drunkplato
+
 ### `0.12.0-release` - 06/07/23
 
 * Reorder grid index, cache on poke success by @ajlamarc
