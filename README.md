@@ -13,7 +13,7 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
-### `0.13.09-release` - 06/13/23
+### `0.13.0-release` - 06/13/23
 
 * Update window resizing logic, fullscreen size fix by @ajlamarc
 * Fix notification list height and scroll overflow by @gdbroman 
