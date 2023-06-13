@@ -13,6 +13,32 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.13.09-release` - 06/13/23
+
+* Update window resizing logic, fullscreen size fix by @ajlamarc
+* Fix notification list height and scroll overflow by @gdbroman 
+* Fix ugly overflow on landing page for small screens by @gdbroman
+* Wallet fixes polish by @ajlamarc 
+* Standalone Chat by @gdbroman 
+
+Light | Dark
+--- | ---
+![CleanShot 2023-06-12 at 15 05 49@2x](https://github.com/holium/realm/assets/29574724/dfb6008d-7e80-49c9-a70e-f9d034287c6f) | ![CleanShot 2023-06-12 at 15 07 29@2x](https://github.com/holium/realm/assets/29574724/3cd5bcfb-e089-4b27-b3e6-2cbb77e38204)
+
+* Rooms dynamic grid by @drunkplato 
+ * Dynamically sets an active speaker and places them in a larger grid cell.
+* Update maintenance endpoint by @gdbroman 
+* RE-239 dont send empty messages via relam-chat agent by @Tenari 
+* Persist session in prod by @gdbroman 
+* Add loading state to shutdown by @gdbroman
+* Change to trigger build by @gdbroman 6
+* Fix windows issue (dock undefined) by @gdbroman 
+* Wallet polishing and bug fixes by @ajlamarc 
+* Fix fullscreening & titlebar for windows by @gdbroman 
+* Put a max width on bubbles by @gdbroman 
+* Remove 0,0 constraint (center windowed windows) by @gdbroman 
+* Make code blocks selectable again by @gdbroman 
+
 ### `0.12.1-release` - 06/08/23
 
 * fixed growing with video and better track management by @drunkplato
