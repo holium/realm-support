@@ -13,6 +13,11 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.13.1-release` - 06/13/23
+
+* Standalone chat cleanups by @gdbroman 
+* initial implementation for notif-cleanup by @Tenari 
+
 ### `0.13.0-release` - 06/13/23
 
 * Update window resizing logic, fullscreen size fix by @ajlamarc
