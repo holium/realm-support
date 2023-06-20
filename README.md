@@ -13,6 +13,37 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.13.3-release` - 06/20/23
+
+* Passport fixes by @ajlamarc 
+* make a chat-vent thread for synchronous pokes by @Tenari
+* Create chat if exists, navigate if not by @ajlamarc
+* Fix reply overflow in ChatInput by @gdbroman 
+
+Before | After
+--- | ---
+![CleanShot 2023-06-16 at 16 48 46@2x](https://github.com/holium/realm/assets/29574724/e936b343-5dcc-493d-946e-52b73e820c74) | ![CleanShot 2023-06-16 at 16 57 57@2x](https://github.com/holium/realm/assets/29574724/26979151-7188-443c-98e4-5324453eeb70)
+
+* fix RE-260 RE-261 RE-262 RE-263 by @Tenari 
+* Make Get Realm CTA slightly fatter & Don't autofocus input on mobile by @gdbroman
+
+Before | After
+--- | ---
+![CleanShot 2023-06-12 at 16 25 57](https://github.com/holium/realm/assets/29574724/e3e5150b-5ef4-4bd0-85ef-ccab7dc79e15) | ![CleanShot 2023-06-12 at 16 49 09](https://github.com/holium/realm/assets/29574724/9ff4f083-419d-4032-8871-0f0f863be905)
+
+* Fix 0x0 image by @gdbroman
+* Fix premeasuring tweets in standalone by @gdbroman 
+* Fix PR lint step (git error) by @gdbroman 
+* Upload ID flow by @gdbroman
+
+![Upload ID flow](https://github.com/holium/realm-support/assets/102810142/95809cda-5fc1-4975-bf3f-2b6ff8500127)
+
+### `0.13.2-release` - 06/14/23
+
+* Fix Get Realm btn icon gone by @gdbroman 
+* Remove default onquit from watch by @ajlamarc 
+* More (Standalone) Chat Fixes by @gdbroman
+
 ### `0.13.1-release` - 06/13/23
 
 * Standalone chat cleanups by @gdbroman 
