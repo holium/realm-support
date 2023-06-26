@@ -28,8 +28,8 @@ If you have an issue with an app supported by Holium, click below to post detail
 * Fix appgrid clicking by @ajlamarc
 * fix RE-275 styling by @Tenari 
 * Connection status integration by @lodlev-migdev 
- * Fix for two SSE reconnects
- * Fix for reconnect on wake from sleep
+  * Fix for two SSE reconnects
+  * Fix for reconnect on wake from sleep
 * Hosting byop fixes by @drunkplato 
 * Filter for 'planet' products for Realm client by @gdbroman
 * fixed when multiple ships exists and BYOP is left unuploaded and fixe… by @drunkplato 
