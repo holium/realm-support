@@ -13,6 +13,31 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.13.5-release` - 06/25/23
+
+* add enjs function for tables so that path scry returns all relevant data by @niblyx-malnus 
+* add take-fact-or-kick by @niblyx-malnus
+* Fix payment spinning for byop by @gdbroman 
+* fix the chat crash on missing pinned message by @Tenari
+* Add annual payment to Upload ID by @gdbroman
+* bedrock-db by @Tenari 
+* Popout Chat bug fixes by @gdbroman 
+* handle emoji codepoints being translated to utf-8 for push notifications by
+* Fix window miscalculation w custom titlebar by
+* Simpler unmaximze works better by @ajlamarc 
+* Fix appgrid clicking by @ajlamarc
+* fix RE-275 styling by @Tenari 
+* Connection status integration by @lodlev-migdev 
+ * Fix for two SSE reconnects
+ * Fix for reconnect on wake from sleep
+* Hosting byop fixes by @drunkplato 
+* Filter for 'planet' products for Realm client by @gdbroman
+* fixed when multiple ships exists and BYOP is left unuploaded and fixe… by @drunkplato 
+* Fix TSC errors in master step by @gdbroman 
+* Cookie issue fix again by @lodlev-migdev
+
+### `0.13.4-hotfix` - 06/25/23
+
 ### `0.13.3-release` - 06/20/23
 
 * Passport fixes by @ajlamarc 
