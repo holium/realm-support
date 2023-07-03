@@ -13,6 +13,29 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.14.0-release` - 06/30/23
+
+* Bedrock constraints by @Tenari 
+* Fix "Switch to Realm" closes app from mac dock menu by @gdbroman 
+* fix RE-289 compare timestamps before deleting in case of  by @Tenari 
+* BYOP: New Disclaimer screen & handle unfinished uploads by @gdbroman 
+* Filter out unfinished BYOPs in Realm by @gdbroman 
+* Fix hovering cursors cut-off on LP by @gdbroman
+* hosting.holium.com: Contact Support sidebar link by @gdbroman
+
+https://github.com/holium/realm-support/assets/102810142/a58b7ffb-b14d-47b7-b3d2-4e55b2b2aafa
+ 
+* fix RE-280 by not entering normal fullscreen when we do simplefullscreen by @Tenari
+* fix RE-264 current space is preserved from local db by @Tenari
+* Check for camera notch by measuring aspect ratio by @gdbroman
+* Re-sort inbox list on message sent/received by @gdbroman 
+* Switch the documentation url link on the website by @gdbroman 
+* Update Realm Login copy to current ways to get on by @gdbroman 
+* RE-219 SpaceBlock for /spaces/~zod/our type chat messages using custom type by @Tenari 
+* Add rooms interface to standalone chat by @gdbroman
+
+https://github.com/holium/realm-support/assets/102810142/ff5bb010-43be-4aa8-8590-3e67025e1602
+
 ### `0.13.5-release` - 06/25/23
 
 * add enjs function for tables so that path scry returns all relevant data by @niblyx-malnus 
