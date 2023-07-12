@@ -13,6 +13,87 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.15.1-release` - 07/12/23
+
+* Add logging to BE & make `product_type` query param by @gdbroman 
+* Email notify by @gdbroman 
+* Fix infinite booting bug for byop-p by @gdbroman
+* Add BE log for when upload starts by @gdbroman 
+* Upload stuck? Try uploading in a different browser by @gdbroman
+  * If the upload isn't finished after 15 minutes, the user will see this info box:
+
+<img width="840" alt="CleanShot 2023-07-03 at 11 02 27@2x" src="https://github.com/holium/realm/assets/29574724/bde27802-97eb-414c-9da7-592706524e6d">
+
+* Fix infinite "Fetching initial data" spinner by @gdbroman 
+* Fix "Disable system cursor" not immediately applied to webviews bug by @gdbroman
+  * The fix is looping over all webcontents and applying the show/hide cursor CSS, not just browserwindows.
+
+Before | After
+--- | ---
+<video src="https://github.com/holium/realm-support/assets/102810142/a76d9a95-001d-4822-b28f-d89ff160aa9e" /> | <video src="https://github.com/holium/realm-support/assets/102810142/3b1a9e3a-da34-4f82-9165-88c6d16c7db8" />
+
+* Fix unevenly sized speaker tiles by @gdbroman
+ * This also fixes the issue of a thin active speaker.
+
+![CleanShot 2023-07-03 at 21 21 35@2x](https://github.com/holium/realm/assets/29574724/a76fc39c-1d9d-413a-88c2-1896bf81a414)
+
+* make chat host able to delete messages from other people by @Tenari
+* Change Download btn text from M1 to Apple by @gdbroman
+
+Before | After
+--- | ---
+![CleanShot 2023-07-06 at 10 49 02@2x](https://github.com/holium/realm/assets/29574724/4b7d4f53-e6d9-4396-adf9-c39ed657ee50) | ![CleanShot 2023-07-06 at 10 47 48@2x](https://github.com/holium/realm/assets/29574724/54e21465-fb4f-447b-b158-c4bb7d846347)
+
+* Clear userData if Realm has been uninstalled in-between updates by @gdbroman 
+* Lexicon by @Haroldthe24th 
+* Don't clear user data first time realmRelease is null by @gdbroman 
+* Bump semver from 7.3.8 to 7.5.3 in /app/release/app by @dependabot
+* Add Notes to Bazaar catalog by @gdbroman 
+* Trigger desks deploy by @gdbroman 
+* Fix 'Start room' btn gap by @gdbroman 
+* Forwarding chat messages by @Tenari
+
+<img width="494" alt="image" src="https://github.com/holium/realm/assets/3653835/06131c8e-55c4-4906-b13b-616f21a94a50">
+
+<img width="369" alt="image" src="https://github.com/holium/realm/assets/3653835/5ad31331-b891-447b-b4e5-0f3b3ae59a0b">
+
+* Use background + space theme in standalone chat by @ajlamarc
+
+https://github.com/holium/realm-support/assets/102810142/f300330c-d405-4b8f-bd2e-5fb31ae47b88
+
+* Add demographics tracking to holium.com & hosting.holium.com by @gdbroman
+* holium.com page events by @gdbroman 
+* Make AMPLITUDE_API_KEY available in publicRuntimeConfig by @gdbroman
+* hosting.holium.com: Automated E2E test by @gdbroman
+
+https://github.com/holium/realm-support/assets/102810142/ae6fe271-eeb5-487f-9d79-18c19ee62882
+
+* disable double click titlebar by @ajlamarc 
+* add system sounds enabled, useSound hook by @ajlamarc 
+* Add missing =|  =native-app:store for Notes by @gdbroman 
+* RE-298 plain-link text by @Tenari 
+* RE-209 %api-store will read from s3-store and storage and merge the r… by @Tenari 
+* Fix sharemodal flicker by @gdbroman 
+* a tag color fix by @drunkplato 
+* Trove by @Haroldthe24th 
+* Remove notes from bazaar by @gdbroman 
+* Bump semver from 5.7.1 to 5.7.2 by @dependabot 
+* Bump vite from 2.9.15 to 2.9.16 in /trove by @dependabot 
+* RE-302 debug toggle for realm-chat (default hidden) by @Tenari 
+* fix RE-252 by removing 'Edit' menu option when message is pending by @Tenari 
+* Fix better-sqlite3-multiple-ciphers untyped by @gdbroman 
+* Lexicon cleanups by @gdbroman 
+* ensure desk.ship file is pointing to correct host/moon when building … by @lodlev-migdev 
+* Fix duplicate sentences and word defs by @gdbroman
+
+https://github.com/holium/realm-support/assets/102810142/4030620b-7ae5-4130-8a98-87617f0a510b
+
+* Fix forward message sending to own chat by @gdbroman 
+* release-v0.15.0 by @drunkplato 
+* Fix forward msg bugs by @gdbroman 
+* Fix S3 typing by @gdbroman 
+* Decrease GH timout from 360 to 30 minutes per step by @gdbroman 
+
 ### `0.14.0-release` - 06/30/23
 
 * Bedrock constraints by @Tenari 
