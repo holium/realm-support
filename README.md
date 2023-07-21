@@ -13,6 +13,30 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.15.4-release` - 07/13/23
+
+* Take out clearUserData for now by @gdbroman
+* Don't remove onMouseDown/onMouseUp in appgrid (disables scrolling) by @gdbroman
+* Convert map to foreach by @gdbroman 
+
+### `0.15.3-release` - 07/13/23
+
+* Specify root imports of design-system by @gdbroman 
+* Fix blank Trove & Lexicon by @gdbroman 
+* re-create spaces paths on-load since we are wiping the db by @Tenari 
+* -fix issue with infinite navigation to spaces page by @Haroldthe24th 
+* Os trove rename by @Haroldthe24th 
+* Lexicon: Constant tab width by @gdbroman 
+* remove spaces check in os-trove on-init by @niblyx-malnus
+* Deprecate Purchase ID flow in Realm by @gdbroman 
+* RE-323 allow tall bubble to be scrolled by @Tenari 
+* -space change handled correctly in trove/lexicon by @Haroldthe24th
+* follow %spaces in on-load if not already followed by @niblyx-malnus 
+
+### `0.15.2-hotfix` - 07/12/23
+
+* Rename Lexicon & Trove to %os-trove & %os-lexicon by @gdbroman
+
 ### `0.15.1-release` - 07/12/23
 
 * Add logging to BE & make `product_type` query param by @gdbroman 
