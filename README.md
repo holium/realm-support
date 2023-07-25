@@ -13,6 +13,24 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.16.0-release` - 07/24/23
+
+* hide-logs unless you manually turn them on by @Tenari 
+* trove / lexicon deployment fixes w/ new poke by @lodlev-migdev 
+* Organize ship service files by @gdbroman 
+* fix-api-store by @Tenari 
+* -fix navigating to a space with selected trove by @Haroldthe24th 
+* edit-path poke, /table scry by @Tenari 
+* Delete lingering room by @gdbroman 
+* RE-331 fix DM forwarded from title issue by @Tenari 
+* Only pass id to top-level Bubble parent by @gdbroman 
+* Fix emoji button w context-click on bubbles by @gdbroman 
+* RE-376 ensure media block always on own line by @Tenari 
+* Screensharing rooms by @drunkplato 
+* Fix bubble interactivity by @gdbroman 
+* Fix ts errors by @gdbroman 
+* Fix: click-through on bubble LineBreaks by @gdbroman 
+
 ### `0.15.4-release` - 07/13/23
 
 * Take out clearUserData for now by @gdbroman
