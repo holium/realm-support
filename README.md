@@ -13,6 +13,25 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `0.16.2-release` - 07/28/23
+
+* New notes Icon by @gdbroman 
+* add %notes on load by @lodlev-migdev
+
+### `0.16.1-release` - 07/28/23
+
+* RE-398 remove-many for bulk delete a bunch of rows by id (must be sam...)
+* Trigger test desk deploy by @gdbroman 
+* Handle uploadFile s3 errors more gracefully by @gdbroman 
+* Notes by @gdbroman 
+* Fix passport elevation in settings by @gdbroman 
+* Notes cleanups by @gdbroman
+* Awlays randomize notes cursor color by @gdbroman
+* Try catch in case note is already deleted by @gdbroman 
+* Disable createNote if initializing (don't spam network) by @gdbroman 
+* Fix create key in access rules by @gdbroman 
+* Empty string instead of dollar sign by @gdbroman 
+
 ### `0.16.0-release` - 07/24/23
 
 * hide-logs unless you manually turn them on by @Tenari 
