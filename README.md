@@ -13,6 +13,12 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.16.7-hotfix` - 08/07/23
+
+* Fix 0x color bug by @gdbroman
+* Clean up onboarding stories by @gdbroman
+* RE-415 sync desktop client to ship chat messages table by @Tenari 
+
 ### `0.16.2-release` - 07/28/23
 
 * New notes Icon by @gdbroman 
