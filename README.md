@@ -13,6 +13,10 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.17.2-hotfix` - 08/15/23
+
+* pKey not set on various tables by @drunkplato
+
 ### `v0.17.1-hotfix` - 08/14/23
 
 * RE-224 improve create chat flow by @Tenari
