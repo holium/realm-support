@@ -13,6 +13,41 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.17.7-hotfix` - 09/03/23
+
+* enable error checking using dotenv by @lodlev-migdev 
+* Add missing `ur-link` fragment type by @gdbroman 
+* Multi fix pass by @lodlev-migdev 
+* ensure room id is unique. fix for desks submodule by @lodlev-migdev
+* fix staging build by @lodlev-migdev 
+* fix staging build by @lodlev-migdev
+* minor room id fix and production build update by @lodlev-migdev 
+
+### `v0.17.5-hotfix` - 08/29/23
+
+* Re 466 more updates by @lodlev-migdev 
+* bump to force new PR by @lodlev-migdev
+
+### `v0.17.4-hotfix` - 08/25/23
+
+* Re 466 more updates by @lodlev-migdev 
+* change how production web socket url is handled by @lodlev-migdev 
+
+### `v0.17.3-hotfix` - 08/25/23
+
+* fix links issues by @Tenari 
+* anonymize picture uploads by @Tenari 
+* Fix chat back button causing blank view by @gdbroman 
+* update desks repo commit by @Tenari 
+* RE-443 fix edit mesage by @Tenari 
+* upgrade to new bedrock type system, use threadpokes for more things by @Tenari 
+* RE-366-with-bedrock-fixes by @lodlev-migdev 
+* background rooms, notes, and multi-session support by @lodlev-migdev 
+* remove notes add-catalog-entry poke from UI by @lodlev-migdev 
+* track master branch of desks submodule by @lodlev-migdev 
+* PR for minor %notes fixes by @lodlev-migdev 
+* Re 466 more updates by @lodlev-migdev
+
 ### `v0.17.2-hotfix` - 08/15/23
 
 * pKey not set on various tables by @drunkplato
