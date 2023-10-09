@@ -13,6 +13,40 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.18.1` - 10/03/23
+
+* Make /provisional-ship-entry non-blocking by @gdbroman 
+* Fix can't assign URL object to string by @gdbroman
+* Upload pier with SFTP by @gdbroman 
+* Fix ship is ready check by @gdbroman
+* Display useful upload errors by @gdbroman 
+* Fix master tsc by @gdbroman 
+* Fix duplicated heart emojis by @gdbroman 
+* RE-480 truncat long descriptions in confirm dialog by @Tenari 
+* only update the RoomsStore currentRid value in the room-created event… by @lodlev-migdev 
+
+### `v0.18.0` - 09/25/23
+
+* matrix.org link crashes chat by @lodlev-migdev
+
+### `v0.17.8` - 09/22/23
+
+* also strip the string if they just press enter by @Tenari 
+* -fixed issue with updates in Lexicon by @Haroldthe24th
+* Update timeline (rm Android) by @gdbroman
+* desks commit by @Tenari
+* Bump desks by @gdbroman
+* Convert add-ship-to-chat call to threaded poke by @gdbroman 
+* Verify cached audio/video devices by @gdbroman
+* fixed rooms isInitiator function  by @drunkplato
+* Bump desks commit for OneSignal change by @gdbroman 
+* Fix set device in rooms by @gdbroman 
+* use proper vote version by @Tenari 
+* fix a url parsing crash within link block by @Tenari 
+* attempting to fix build by @lodlev-migdev 
+* attempting to fix build by @lodlev-migdev 
+* bump desk hash by @Tenari
+
 ### `v0.17.7-hotfix` - 09/03/23
 
 * enable error checking using dotenv by @lodlev-migdev 
