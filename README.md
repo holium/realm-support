@@ -13,6 +13,21 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.19.0` - 10/16/23
+
+* RE-391 make the context menu keep options from parent DOM elements-- … by @Tenari 
+* Re 468 by @Tenari 
+* RE-434 encode uri component for key for S3 by @Tenari 
+* Bump desks to backlog change by @gdbroman
+* Supersonic web by @gdbroman 
+* Fix mock data tsc error by @gdbroman 
+* Bump desks for desk fix (join self) by @gdbroman 
+* S3 Dashboard fixes by @gdbroman 
+* Add "Set Credentials to Default" btn on "No storage" screen by @gdbroman
+* Update desks by @gdbroman 
+* encodeURI not encodeURIComponent by @Tenari 
+* Deploy desks to staging by @gdbroman 
+
 ### `v0.18.1` - 10/03/23
 
 * Make /provisional-ship-entry non-blocking by @gdbroman 
