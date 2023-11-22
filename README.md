@@ -13,6 +13,26 @@ If you have an issue with an app supported by Holium, click below to post detail
 
 ## Changelog
 
+### `v0.19.1` - 11/20/23
+
+* Peers get backlog (desk bump) by @gdbroman
+* fix onboarding hang/crash by @Tenari
+* also send peers-get-backlog default by @Tenari 
+* Remove planet_status filter by @gdbroman 
+* fix the leave option so that it's id is not overwritten by @Tenari 
+* Bump desks by @gdbroman 
+* Replace all third.earth references with holium.network by @gdbroman 
+* Fix custom domain error handling by @gdbroman
+* RE-536 keep session file up to date by @Tenari 
+* RE-500 by @Tenari 
+* RE-520 remove https before doing the bucket shim by @Tenari 
+* enable admin role for chat peers by @Tenari
+* Bump electron from 23.3.10 to 23.3.13 by @dependabot
+* Bump next from 13.2.4 to 13.5.0 in /hosting-holium-com by @dependabot
+* Fix next dependency issue by @gdbroman 
+* Fix master lint errors by @gdbroman 
+* Move to next/navigation by @gdbroman 
+
 ### `v0.19.0` - 10/16/23
 
 * RE-391 make the context menu keep options from parent DOM elements-- … by @Tenari 
